@@ -1,0 +1,1001 @@
+Age,Gender,Diet Type,Living Environment,Night Blindness,Dry Eyes,Bleeding Gums,Fatigue,Tingling Sensation,Low Sun Exposure,Reduced Memory Capacity,Shortness of Breath,Loss of Appetite,Fast Heart Rate,Brittle Nails,Weight Loss,Reduced Wound Healing Capacity,Skin Condition,Predicted Deficiency
+62,Male,Non-Vegetarian,Rural,1,0,0,0,1,1,0,0,0,0,0,1,1,Normal,Zinc
+52,Male,Vegetarian,Urban,0,0,0,0,0,1,0,0,0,0,0,1,1,Normal,Vitamin B12
+53,Female,Vegetarian,Rural,0,0,0,1,0,0,0,0,0,0,0,0,0,Normal,Vitamin A
+40,Male,Non-Vegetarian,Rural,0,0,0,0,0,0,1,1,0,1,0,0,0,Pale/Yellow Skin,No Deficiency
+17,Female,Non-Vegetarian,Urban,0,0,0,1,1,0,0,0,1,1,0,0,0,Normal,Vitamin D
+27,Female,Vegetarian,Urban,1,1,0,1,0,1,0,0,0,1,1,0,0,Dry Skin,Vitamin B12
+12,Female,Non-Vegetarian,Urban,0,0,0,0,0,0,0,0,0,0,0,1,1,Normal,No Deficiency
+17,Female,Non-Vegetarian,Rural,0,0,0,1,0,0,0,0,0,0,0,0,0,Pale/Yellow Skin,No Deficiency
+29,Female,Non-Vegetarian,Rural,0,1,0,0,0,1,0,1,0,0,0,1,0,Normal,Iron
+42,Female,Non-Vegetarian,Urban,1,0,0,0,1,0,0,1,0,0,0,0,0,Normal,Iron
+41,Male,Vegetarian,Urban,0,0,0,1,1,0,0,0,0,0,0,0,1,Rough Skin,Vitamin C
+57,Female,Non-Vegetarian,Rural,0,0,0,1,0,0,0,0,0,0,0,0,0,Normal,No Deficiency
+19,Male,Non-Vegetarian,Urban,0,0,0,0,0,0,0,0,0,0,0,0,0,Normal,Vitamin D
+52,Female,Vegetarian,Urban,0,0,1,0,0,1,0,0,1,1,0,0,1,Pale/Yellow Skin,Vitamin C
+13,Female,Non-Vegetarian,Urban,0,0,0,0,0,1,1,0,0,0,0,0,0,Normal,Iron
+48,Female,Non-Vegetarian,Rural,0,0,1,1,0,1,0,0,0,0,0,0,0,Dry Skin,No Deficiency
+68,Male,Non-Vegetarian,Urban,0,0,0,0,0,1,0,0,0,0,0,1,0,Rough Skin,Iron
+19,Female,Non-Vegetarian,Rural,1,0,0,0,0,0,0,0,0,0,0,0,0,Normal,No Deficiency
+62,Female,Vegetarian,Urban,0,0,0,0,0,1,0,1,0,0,0,0,1,Normal,Vitamin B12
+56,Female,Vegetarian,Urban,0,0,0,0,0,0,0,0,0,0,1,0,1,Normal,No Deficiency
+28,Female,Non-Vegetarian,Rural,0,0,0,0,0,0,0,0,0,0,0,1,1,Rough Skin,Zinc
+56,Female,Non-Vegetarian,Urban,0,0,0,0,1,0,0,0,0,0,0,0,0,Normal,No Deficiency
+34,Female,Non-Vegetarian,Rural,0,0,0,1,1,1,0,0,1,1,0,1,0,Normal,Vitamin A
+64,Male,Vegetarian,Urban,0,1,0,1,0,0,0,0,0,0,0,0,1,Normal,Iron
+24,Female,Non-Vegetarian,Rural,0,1,0,1,0,0,0,0,0,0,1,1,1,Normal,Zinc
+34,Female,Non-Vegetarian,Rural,0,0,0,1,0,0,0,1,0,0,0,0,0,Dry Skin,Vitamin A
+38,Male,Non-Vegetarian,Rural,0,0,0,0,0,0,1,1,0,0,0,0,0,Normal,Vitamin D
+19,Female,Non-Vegetarian,Urban,0,0,0,0,0,0,0,0,0,0,0,0,0,Normal,Vitamin B12
+52,Female,Vegetarian,Urban,0,0,0,1,0,1,1,0,0,0,0,0,0,Normal,Iron
+55,Male,Non-Vegetarian,Urban,0,0,0,0,1,0,0,0,0,0,0,0,0,Rough Skin,Iron
+69,Male,Vegetarian,Rural,0,0,0,1,0,0,0,0,1,0,0,0,0,Normal,Vitamin B12
+18,Male,Vegetarian,Urban,0,0,0,0,0,0,0,0,0,0,0,0,0,Dry Skin,Vitamin D
+40,Female,Non-Vegetarian,Rural,0,1,0,1,1,1,0,1,0,0,0,1,0,Rough Skin,No Deficiency
+45,Male,Vegetarian,Rural,0,0,0,1,0,0,0,0,0,1,0,0,0,Normal,Vitamin A
+39,Female,Non-Vegetarian,Urban,0,0,0,0,0,0,0,0,1,0,1,0,0,Normal,No Deficiency
+14,Male,Non-Vegetarian,Urban,0,1,1,1,0,0,0,0,0,0,1,0,0,Normal,No Deficiency
+47,Female,Vegetarian,Urban,0,1,0,0,0,0,0,1,0,0,1,0,0,Dry Skin,Vitamin B12
+25,Female,Vegetarian,Urban,0,0,0,0,1,0,0,0,0,1,0,0,1,Normal,Vitamin C
+36,Male,Vegetarian,Rural,0,1,0,1,0,1,0,0,0,0,0,0,0,Normal,Vitamin A
+59,Male,Vegetarian,Rural,0,0,0,1,0,1,0,0,0,0,1,1,0,Normal,Iron
+57,Female,Non-Vegetarian,Rural,0,1,0,0,1,0,1,0,0,1,0,0,1,Pale/Yellow Skin,No Deficiency
+60,Male,Non-Vegetarian,Rural,0,0,0,1,0,0,0,0,0,0,0,0,0,Normal,No Deficiency
+27,Female,Non-Vegetarian,Urban,0,0,1,0,0,0,1,0,0,0,0,0,0,Normal,No Deficiency
+28,Female,Non-Vegetarian,Rural,0,0,0,1,0,0,0,1,0,0,0,0,0,Normal,Vitamin B12
+36,Female,Non-Vegetarian,Rural,0,0,0,1,1,0,0,0,0,0,1,1,0,Dry Skin,Vitamin D
+58,Male,Vegetarian,Rural,0,0,0,0,0,0,1,0,0,1,0,0,0,Normal,Vitamin A
+63,Male,Non-Vegetarian,Urban,0,0,0,0,0,0,0,1,0,0,1,0,0,Dry Skin,Iron
+46,Male,Vegetarian,Urban,0,0,0,1,0,1,0,0,0,0,0,0,0,Normal,Vitamin B12
+28,Female,Non-Vegetarian,Rural,1,0,0,0,0,0,0,0,0,0,0,0,0,Normal,No Deficiency
+65,Female,Vegetarian,Urban,0,0,1,1,0,0,1,0,1,0,0,0,1,Dry Skin,Iron
+28,Female,Non-Vegetarian,Rural,0,0,0,1,0,1,0,0,0,1,0,0,1,Normal,No Deficiency
+32,Female,Non-Vegetarian,Rural,0,1,0,0,0,1,0,0,0,0,0,0,1,Rough Skin,Vitamin A
+32,Female,Vegetarian,Rural,0,1,0,1,0,0,0,0,0,0,1,0,1,Normal,Vitamin C
+62,Female,Vegetarian,Rural,0,0,0,0,0,0,0,0,0,0,0,0,1,Normal,Vitamin C
+47,Male,Non-Vegetarian,Rural,0,0,1,0,1,1,1,0,0,0,1,0,0,Normal,Vitamin B12
+11,Male,Non-Vegetarian,Rural,0,0,0,1,0,0,0,0,0,0,0,0,1,Normal,Zinc
+61,Female,Vegetarian,Rural,0,0,1,0,0,0,0,0,0,0,1,0,1,Normal,Zinc
+22,Female,Vegetarian,Rural,0,1,0,1,0,1,0,0,0,0,0,0,0,Rough Skin,Vitamin B12
+34,Male,Non-Vegetarian,Urban,0,0,0,1,0,0,0,0,1,0,0,0,0,Normal,No Deficiency
+11,Female,Non-Vegetarian,Rural,0,0,0,0,0,0,0,0,0,0,0,0,0,Normal,No Deficiency
+40,Female,Non-Vegetarian,Rural,0,0,0,0,0,1,0,0,0,1,1,1,0,Normal,Iron
+19,Male,Non-Vegetarian,Rural,1,0,0,0,0,0,0,0,0,1,0,1,0,Normal,Vitamin D
+41,Male,Vegetarian,Urban,0,0,0,0,0,0,0,0,1,0,0,0,0,Dry Skin,No Deficiency
+45,Female,Vegetarian,Rural,0,0,0,0,1,0,0,0,0,0,0,0,0,Normal,No Deficiency
+48,Male,Non-Vegetarian,Rural,0,0,0,1,0,0,0,0,0,0,0,0,0,Rough Skin,No Deficiency
+52,Female,Non-Vegetarian,Urban,0,1,0,0,1,0,0,0,0,0,1,0,0,Pale/Yellow Skin,No Deficiency
+65,Male,Vegetarian,Urban,1,0,0,0,0,0,0,0,0,0,0,0,0,Normal,Iron
+23,Male,Vegetarian,Rural,0,0,0,0,0,1,0,0,0,1,0,0,1,Normal,Vitamin C
+10,Female,Vegetarian,Urban,0,0,0,0,0,0,0,0,0,0,0,1,1,Normal,Zinc
+14,Male,Vegetarian,Rural,0,0,0,1,0,0,0,0,1,0,0,0,0,Normal,Iron
+19,Male,Non-Vegetarian,Rural,0,0,0,0,0,0,1,1,0,0,0,0,1,Normal,Vitamin B12
+38,Male,Non-Vegetarian,Urban,0,0,0,1,1,1,0,0,0,0,0,0,0,Pale/Yellow Skin,Iron
+37,Male,Non-Vegetarian,Rural,0,1,0,1,0,0,0,0,0,0,0,0,0,Pale/Yellow Skin,Vitamin B12
+14,Female,Non-Vegetarian,Rural,0,0,0,0,0,1,0,0,0,1,0,0,0,Rough Skin,No Deficiency
+11,Female,Vegetarian,Rural,0,0,0,0,0,0,0,1,0,0,0,0,0,Normal,Vitamin B12
+46,Female,Vegetarian,Rural,0,0,0,0,0,0,0,0,1,0,0,0,0,Normal,Vitamin B12
+31,Female,Non-Vegetarian,Rural,0,1,0,0,0,1,0,0,0,0,0,0,1,Dry Skin,No Deficiency
+21,Female,Vegetarian,Rural,0,0,0,0,0,0,0,1,0,0,0,0,1,Normal,Vitamin D
+23,Female,Vegetarian,Rural,0,0,0,0,0,1,0,0,0,0,0,0,0,Dry Skin,Iron
+12,Male,Non-Vegetarian,Urban,1,1,0,1,0,0,0,0,0,0,0,0,0,Normal,No Deficiency
+39,Female,Vegetarian,Urban,0,0,1,0,1,0,1,0,0,0,1,0,1,Normal,No Deficiency
+49,Male,Vegetarian,Rural,0,1,0,0,1,1,0,0,0,0,0,0,0,Pale/Yellow Skin,Iron
+43,Male,Vegetarian,Rural,0,0,0,1,0,0,0,0,1,0,0,0,1,Normal,Vitamin A
+55,Female,Non-Vegetarian,Urban,0,1,0,0,0,0,0,0,0,0,0,0,0,Normal,No Deficiency
+22,Male,Vegetarian,Urban,0,0,0,0,0,1,0,1,0,0,0,0,1,Pale/Yellow Skin,Vitamin C
+32,Female,Vegetarian,Rural,0,0,0,1,0,0,1,0,1,0,0,1,0,Normal,No Deficiency
+38,Male,Vegetarian,Rural,0,0,1,0,0,0,0,0,0,1,0,0,1,Dry Skin,Zinc
+39,Female,Vegetarian,Rural,0,1,0,0,1,0,0,0,0,0,0,0,1,Dry Skin,Vitamin C
+36,Female,Non-Vegetarian,Urban,0,0,0,0,0,0,1,0,0,1,0,0,1,Normal,Zinc
+69,Female,Non-Vegetarian,Rural,0,0,0,0,1,1,0,0,0,0,0,0,0,Rough Skin,No Deficiency
+47,Male,Non-Vegetarian,Urban,0,0,0,0,0,0,1,0,0,1,0,1,1,Normal,Vitamin C
+47,Female,Non-Vegetarian,Rural,0,0,0,1,0,0,0,0,0,1,0,0,1,Normal,Vitamin C
+14,Male,Non-Vegetarian,Urban,0,0,1,1,0,0,1,0,1,0,0,0,0,Pale/Yellow Skin,No Deficiency
+50,Female,Non-Vegetarian,Rural,0,0,0,0,1,1,0,1,0,0,0,0,1,Normal,Zinc
+18,Female,Non-Vegetarian,Rural,0,0,0,1,0,1,0,0,1,0,0,0,0,Normal,No Deficiency
+46,Female,Non-Vegetarian,Urban,0,0,0,1,0,1,0,0,0,0,0,0,0,Normal,Iron
+13,Male,Vegetarian,Urban,0,0,0,0,0,0,0,0,0,0,1,0,0,Normal,Iron
+48,Female,Vegetarian,Urban,0,0,0,0,0,0,0,0,0,0,0,0,0,Dry Skin,No Deficiency
+34,Male,Vegetarian,Urban,1,0,0,0,0,1,0,1,0,0,0,0,0,Dry Skin,Iron
+28,Male,Non-Vegetarian,Rural,0,0,0,0,0,1,0,1,0,0,1,0,1,Dry Skin,Zinc
+58,Female,Vegetarian,Urban,0,1,0,0,0,0,0,1,1,1,0,0,0,Dry Skin,Vitamin A
+61,Female,Non-Vegetarian,Urban,0,0,0,0,0,0,0,0,1,0,0,1,1,Dry Skin,Vitamin C
+36,Male,Non-Vegetarian,Urban,0,1,0,0,0,0,0,0,0,0,0,0,1,Pale/Yellow Skin,Zinc
+17,Female,Vegetarian,Rural,0,0,0,0,0,1,0,0,0,0,1,1,0,Normal,Vitamin B12
+32,Female,Non-Vegetarian,Urban,0,1,0,1,0,0,1,0,0,0,0,0,1,Normal,Iron
+15,Female,Non-Vegetarian,Urban,0,0,0,0,0,1,0,0,0,0,0,0,0,Normal,Vitamin B12
+34,Female,Non-Vegetarian,Urban,0,1,0,0,0,0,0,0,0,0,0,0,1,Normal,Vitamin D
+35,Male,Non-Vegetarian,Urban,0,0,0,0,1,0,0,0,0,0,0,0,1,Dry Skin,Vitamin C
+38,Female,Vegetarian,Urban,0,0,0,0,0,0,0,0,0,0,0,0,0,Normal,Iron
+35,Male,Vegetarian,Urban,0,1,0,1,1,0,0,0,1,0,0,0,0,Normal,Vitamin A
+28,Female,Non-Vegetarian,Rural,0,0,0,1,0,1,1,1,0,0,0,0,1,Normal,Vitamin C
+59,Male,Vegetarian,Rural,0,1,0,1,0,0,0,0,0,0,0,0,0,Normal,No Deficiency
+62,Male,Non-Vegetarian,Urban,0,0,0,0,0,0,0,1,0,0,0,0,0,Rough Skin,Vitamin B12
+41,Female,Vegetarian,Urban,0,0,0,0,0,0,0,0,0,1,0,0,0,Normal,Iron
+54,Female,Non-Vegetarian,Urban,1,1,0,1,1,1,0,0,1,1,0,0,0,Normal,No Deficiency
+35,Female,Vegetarian,Urban,0,0,0,1,1,0,0,0,0,0,1,0,1,Normal,Zinc
+28,Female,Non-Vegetarian,Urban,0,0,0,1,0,0,0,0,0,0,1,0,0,Dry Skin,Iron
+69,Female,Non-Vegetarian,Rural,0,0,0,1,0,1,0,0,1,0,0,0,0,Normal,No Deficiency
+68,Female,Vegetarian,Rural,0,0,0,1,0,1,0,1,1,0,0,0,0,Normal,No Deficiency
+54,Female,Non-Vegetarian,Urban,0,1,0,1,0,1,0,0,0,0,0,0,0,Rough Skin,No Deficiency
+25,Male,Vegetarian,Urban,0,1,0,0,0,0,0,0,1,0,0,0,1,Normal,Zinc
+25,Male,Non-Vegetarian,Urban,0,0,0,0,0,0,0,0,1,0,0,0,0,Normal,Iron
+48,Male,Non-Vegetarian,Urban,1,0,0,1,0,0,0,0,0,0,0,0,0,Pale/Yellow Skin,No Deficiency
+17,Female,Vegetarian,Rural,0,1,0,0,0,0,0,0,0,0,0,0,0,Rough Skin,Iron
+60,Female,Non-Vegetarian,Urban,0,0,0,1,0,0,0,1,1,1,0,0,1,Normal,Zinc
+36,Male,Vegetarian,Rural,0,0,1,0,0,0,0,0,0,0,0,0,0,Normal,No Deficiency
+22,Male,Non-Vegetarian,Urban,0,0,0,0,0,0,0,0,0,0,0,1,0,Rough Skin,No Deficiency
+44,Male,Vegetarian,Rural,0,0,0,0,1,0,1,1,0,0,0,0,0,Dry Skin,Iron
+18,Female,Vegetarian,Rural,0,1,0,0,0,0,0,0,0,0,0,0,0,Normal,No Deficiency
+30,Male,Non-Vegetarian,Rural,0,0,0,0,0,0,0,0,0,0,0,0,0,Rough Skin,No Deficiency
+69,Female,Vegetarian,Urban,1,0,0,1,0,0,0,0,0,0,1,0,1,Normal,Vitamin D
+35,Female,Vegetarian,Urban,0,0,0,1,0,1,0,0,0,0,0,0,0,Normal,No Deficiency
+52,Female,Non-Vegetarian,Rural,0,0,0,1,0,0,0,0,0,0,0,0,1,Normal,Iron
+57,Male,Non-Vegetarian,Rural,0,0,0,0,1,0,0,0,0,0,1,0,0,Normal,No Deficiency
+28,Female,Non-Vegetarian,Urban,0,0,1,1,1,1,0,0,0,0,0,0,1,Dry Skin,Vitamin A
+15,Female,Vegetarian,Urban,0,0,0,1,0,0,0,1,0,0,0,0,0,Normal,Vitamin A
+23,Male,Vegetarian,Rural,0,0,0,0,0,0,0,0,0,0,0,0,0,Rough Skin,No Deficiency
+49,Female,Vegetarian,Rural,0,0,1,0,0,0,0,0,0,0,0,0,1,Normal,Zinc
+50,Female,Non-Vegetarian,Urban,0,0,0,0,1,0,0,0,1,0,0,0,1,Normal,Vitamin C
+40,Male,Non-Vegetarian,Rural,1,0,0,0,0,1,0,0,0,0,0,1,0,Normal,Iron
+51,Female,Vegetarian,Urban,0,0,0,1,0,0,0,0,1,0,0,0,0,Normal,No Deficiency
+45,Male,Vegetarian,Rural,0,0,1,0,0,1,1,0,0,0,0,0,0,Normal,No Deficiency
+49,Female,Non-Vegetarian,Rural,0,0,0,0,0,0,0,0,0,0,0,0,0,Normal,Iron
+34,Male,Vegetarian,Rural,0,0,0,1,0,0,0,0,0,0,0,0,0,Normal,Iron
+32,Male,Non-Vegetarian,Urban,0,0,0,1,0,0,1,1,0,0,0,0,0,Normal,No Deficiency
+34,Female,Non-Vegetarian,Rural,0,0,0,1,0,1,1,1,0,0,0,0,0,Normal,No Deficiency
+52,Female,Non-Vegetarian,Rural,0,0,1,1,0,0,0,0,1,0,0,0,0,Normal,Vitamin B12
+47,Female,Vegetarian,Rural,1,0,0,0,0,0,0,0,0,0,0,0,0,Normal,Vitamin D
+51,Female,Non-Vegetarian,Urban,0,1,0,0,1,1,0,0,0,1,0,0,0,Normal,Iron
+57,Male,Non-Vegetarian,Rural,0,0,0,1,0,1,0,0,1,0,0,0,0,Normal,Iron
+15,Male,Vegetarian,Urban,0,0,1,0,0,0,0,0,0,0,0,0,0,Normal,Vitamin B12
+37,Male,Non-Vegetarian,Rural,0,0,0,0,0,0,0,0,0,0,1,0,1,Normal,Vitamin C
+26,Female,Non-Vegetarian,Urban,0,0,0,0,0,0,0,0,0,0,0,0,0,Dry Skin,Iron
+21,Female,Non-Vegetarian,Urban,0,0,0,1,1,0,0,0,0,0,0,0,1,Rough Skin,Vitamin C
+27,Female,Vegetarian,Rural,0,0,1,1,0,1,0,1,0,0,0,0,0,Rough Skin,Vitamin A
+56,Male,Non-Vegetarian,Rural,0,0,0,0,0,0,0,0,0,0,1,1,0,Dry Skin,Vitamin B12
+60,Female,Non-Vegetarian,Urban,0,0,0,0,0,1,0,0,0,1,1,0,0,Normal,No Deficiency
+33,Male,Vegetarian,Urban,1,0,0,0,0,0,0,0,0,0,0,0,0,Normal,Iron
+24,Male,Vegetarian,Rural,0,0,0,0,0,1,0,0,0,1,0,0,0,Dry Skin,No Deficiency
+49,Female,Vegetarian,Rural,0,0,0,0,0,0,0,0,0,0,0,0,0,Normal,Vitamin A
+16,Female,Vegetarian,Rural,0,0,1,1,0,0,0,0,0,0,0,1,0,Normal,Iron
+67,Male,Vegetarian,Urban,0,1,1,0,0,0,1,0,0,1,0,0,0,Pale/Yellow Skin,Iron
+38,Male,Non-Vegetarian,Urban,0,0,0,0,1,0,0,1,1,0,0,0,1,Normal,Zinc
+18,Female,Non-Vegetarian,Rural,1,0,0,0,0,1,1,0,1,0,0,0,0,Dry Skin,Vitamin D
+61,Male,Non-Vegetarian,Rural,0,0,0,1,1,0,0,0,0,0,0,0,0,Normal,Iron
+62,Female,Vegetarian,Rural,0,1,0,1,0,0,0,0,0,0,0,0,0,Rough Skin,Iron
+52,Female,Non-Vegetarian,Rural,1,1,0,1,0,0,0,0,0,0,1,0,1,Normal,Vitamin D
+27,Female,Vegetarian,Urban,0,1,0,1,0,0,0,0,1,0,0,0,1,Normal,Vitamin A
+35,Male,Non-Vegetarian,Rural,0,0,0,0,0,0,0,0,0,0,0,1,1,Normal,Vitamin C
+52,Female,Non-Vegetarian,Urban,0,0,0,1,0,1,1,0,0,0,0,0,0,Normal,No Deficiency
+32,Male,Vegetarian,Rural,0,1,0,0,0,1,0,0,1,0,0,0,0,Normal,Iron
+16,Male,Vegetarian,Rural,1,0,0,0,1,1,0,1,0,1,0,0,0,Rough Skin,Vitamin D
+47,Female,Non-Vegetarian,Urban,0,0,0,0,0,0,0,0,0,0,0,0,1,Normal,Vitamin C
+28,Female,Non-Vegetarian,Rural,0,1,1,0,0,0,0,0,0,0,0,1,1,Pale/Yellow Skin,Zinc
+65,Male,Non-Vegetarian,Urban,0,0,0,0,0,1,1,0,1,0,0,0,1,Normal,Zinc
+68,Female,Vegetarian,Rural,0,0,0,0,0,0,0,0,0,0,0,0,0,Rough Skin,Vitamin D
+66,Female,Non-Vegetarian,Rural,0,0,0,0,0,0,0,0,0,0,0,0,0,Normal,No Deficiency
+23,Male,Non-Vegetarian,Rural,0,0,1,1,1,0,0,0,0,0,0,0,0,Rough Skin,Vitamin B12
+36,Male,Vegetarian,Urban,0,0,1,0,0,1,1,0,0,0,0,0,0,Normal,No Deficiency
+54,Female,Non-Vegetarian,Urban,0,0,0,0,0,0,0,0,0,0,1,0,0,Normal,Vitamin B12
+41,Male,Vegetarian,Urban,0,1,0,1,0,1,0,0,1,0,0,0,0,Normal,Vitamin A
+45,Female,Vegetarian,Urban,0,1,0,0,1,1,0,0,0,1,0,0,1,Normal,Zinc
+39,Male,Non-Vegetarian,Urban,0,0,0,0,0,0,0,0,0,0,0,0,0,Normal,Vitamin A
+16,Female,Vegetarian,Rural,0,0,0,0,0,0,0,0,0,1,0,0,0,Pale/Yellow Skin,Vitamin B12
+40,Male,Non-Vegetarian,Rural,0,0,0,1,0,0,0,1,0,0,0,0,0,Dry Skin,No Deficiency
+41,Female,Non-Vegetarian,Rural,0,0,0,0,0,0,0,0,0,0,0,0,0,Normal,No Deficiency
+42,Female,Vegetarian,Rural,1,0,0,0,1,0,0,0,0,0,0,0,0,Normal,No Deficiency
+34,Female,Non-Vegetarian,Urban,0,0,0,0,0,0,0,1,0,0,1,0,0,Rough Skin,Vitamin B12
+27,Male,Non-Vegetarian,Rural,1,0,0,0,0,0,0,0,0,0,0,1,1,Normal,No Deficiency
+40,Female,Non-Vegetarian,Urban,0,1,0,0,0,0,1,0,0,0,0,1,1,Normal,No Deficiency
+60,Female,Vegetarian,Rural,1,0,0,1,0,1,0,0,0,0,0,0,1,Normal,Zinc
+12,Male,Vegetarian,Urban,0,0,0,0,1,0,0,1,0,1,0,0,0,Normal,Vitamin A
+48,Female,Vegetarian,Urban,0,0,0,0,0,1,0,0,0,0,0,0,1,Normal,Vitamin D
+28,Male,Vegetarian,Rural,0,0,0,0,0,0,0,0,0,0,0,0,0,Normal,Iron
+38,Female,Vegetarian,Rural,0,0,0,0,0,0,0,0,0,1,0,0,1,Normal,Zinc
+67,Male,Vegetarian,Rural,0,0,0,1,0,0,0,0,0,0,1,0,0,Pale/Yellow Skin,No Deficiency
+11,Male,Non-Vegetarian,Rural,0,0,0,1,0,0,0,0,0,0,0,0,0,Normal,No Deficiency
+32,Female,Vegetarian,Rural,0,1,0,0,0,1,0,0,1,0,1,0,0,Dry Skin,No Deficiency
+54,Male,Non-Vegetarian,Urban,0,0,1,0,0,1,0,0,0,0,0,0,0,Normal,Iron
+54,Female,Vegetarian,Rural,0,0,1,0,0,0,0,0,0,0,1,0,0,Rough Skin,Iron
+63,Female,Non-Vegetarian,Rural,0,0,0,1,0,0,0,0,0,1,0,0,0,Normal,No Deficiency
+46,Female,Non-Vegetarian,Rural,0,1,0,0,0,0,0,0,0,0,0,0,0,Dry Skin,Vitamin B12
+56,Male,Vegetarian,Urban,0,1,0,0,0,0,0,0,1,0,0,0,0,Rough Skin,Vitamin D
+67,Female,Non-Vegetarian,Rural,1,0,0,1,0,0,1,0,0,1,0,0,0,Normal,No Deficiency
+25,Female,Vegetarian,Urban,0,1,0,0,1,0,0,0,1,0,0,0,0,Dry Skin,Vitamin B12
+62,Male,Vegetarian,Rural,0,0,0,1,0,0,0,0,0,0,0,0,0,Normal,Vitamin B12
+22,Male,Non-Vegetarian,Urban,1,1,0,0,1,0,0,0,0,0,0,0,0,Normal,Iron
+47,Female,Non-Vegetarian,Rural,0,0,0,1,0,0,0,0,0,1,0,0,1,Normal,Iron
+50,Male,Vegetarian,Rural,1,1,0,1,0,0,0,1,0,0,0,0,0,Normal,Vitamin D
+45,Female,Vegetarian,Rural,0,0,0,0,0,0,0,1,0,0,1,0,0,Normal,Vitamin B12
+58,Female,Non-Vegetarian,Rural,0,1,0,0,0,0,0,1,0,0,0,0,0,Normal,Vitamin B12
+14,Male,Vegetarian,Rural,0,1,0,1,0,0,0,1,0,0,0,0,0,Normal,Vitamin A
+39,Female,Vegetarian,Urban,0,0,1,1,1,1,0,0,0,0,0,0,0,Rough Skin,No Deficiency
+28,Female,Vegetarian,Urban,0,1,0,1,0,0,0,0,0,1,0,0,0,Normal,Iron
+58,Female,Vegetarian,Urban,0,0,0,0,0,0,0,0,1,0,0,0,1,Rough Skin,No Deficiency
+15,Male,Vegetarian,Rural,1,0,0,1,0,0,0,0,0,0,0,0,1,Dry Skin,Vitamin C
+54,Female,Vegetarian,Rural,0,0,0,1,0,0,0,0,0,0,0,0,0,Dry Skin,No Deficiency
+32,Male,Non-Vegetarian,Rural,0,0,0,1,0,0,0,1,0,0,0,0,0,Pale/Yellow Skin,Vitamin B12
+40,Male,Vegetarian,Urban,0,1,0,0,0,0,0,0,0,1,0,0,0,Normal,Vitamin D
+58,Female,Vegetarian,Rural,0,0,0,0,0,1,1,0,0,0,0,0,0,Dry Skin,Iron
+38,Male,Vegetarian,Rural,1,0,0,0,0,0,0,0,1,0,1,0,0,Normal,No Deficiency
+15,Female,Non-Vegetarian,Rural,0,0,0,0,0,1,1,0,0,0,0,0,0,Rough Skin,Vitamin D
+37,Male,Non-Vegetarian,Rural,0,0,1,0,0,0,0,0,0,0,0,1,1,Normal,Vitamin C
+19,Female,Non-Vegetarian,Rural,0,0,0,0,0,0,1,0,1,1,0,0,1,Pale/Yellow Skin,Zinc
+68,Female,Vegetarian,Rural,0,0,0,0,0,0,0,1,0,0,0,0,0,Dry Skin,Iron
+67,Male,Vegetarian,Urban,0,0,0,1,0,1,0,0,1,0,0,0,1,Dry Skin,Vitamin D
+19,Female,Non-Vegetarian,Urban,0,0,0,1,0,0,0,0,1,0,0,0,0,Normal,No Deficiency
+64,Female,Vegetarian,Urban,0,1,0,1,0,0,0,0,0,0,0,0,0,Dry Skin,Vitamin A
+38,Male,Vegetarian,Rural,0,1,0,0,0,0,0,0,0,0,0,0,0,Normal,Vitamin B12
+56,Female,Non-Vegetarian,Urban,1,0,0,0,0,1,0,0,1,0,0,1,1,Normal,Vitamin B12
+62,Male,Non-Vegetarian,Urban,0,0,0,0,0,0,0,0,0,0,1,0,0,Normal,No Deficiency
+45,Female,Non-Vegetarian,Rural,0,0,0,0,0,0,0,0,1,0,0,0,1,Pale/Yellow Skin,No Deficiency
+68,Male,Non-Vegetarian,Rural,0,1,0,1,0,0,0,0,0,1,0,0,0,Normal,Iron
+59,Male,Non-Vegetarian,Urban,1,0,0,0,0,0,0,0,0,1,0,0,0,Normal,No Deficiency
+52,Female,Vegetarian,Urban,1,0,0,0,0,0,0,0,0,1,0,0,1,Normal,Vitamin C
+52,Female,Non-Vegetarian,Rural,0,0,0,1,1,0,0,0,1,0,0,0,1,Normal,Vitamin C
+54,Male,Non-Vegetarian,Urban,0,0,0,1,0,0,0,0,0,0,0,0,0,Normal,Iron
+64,Male,Non-Vegetarian,Urban,0,1,0,1,0,0,0,0,0,0,0,0,0,Dry Skin,Iron
+64,Male,Non-Vegetarian,Urban,0,0,0,0,0,0,0,0,0,0,0,0,1,Normal,Zinc
+15,Female,Vegetarian,Rural,0,0,1,1,0,1,0,0,0,0,0,0,0,Normal,No Deficiency
+49,Female,Vegetarian,Urban,0,0,0,0,1,0,1,0,0,0,0,0,1,Normal,Vitamin C
+15,Female,Non-Vegetarian,Rural,1,0,0,0,0,0,0,0,0,0,0,0,0,Rough Skin,Iron
+51,Female,Vegetarian,Rural,0,0,0,0,1,1,1,0,0,0,0,0,0,Dry Skin,No Deficiency
+15,Female,Vegetarian,Rural,0,0,0,1,1,1,0,0,0,0,0,0,0,Normal,Vitamin B12
+42,Female,Non-Vegetarian,Urban,0,1,0,0,0,0,1,1,0,0,0,0,0,Dry Skin,Vitamin A
+12,Male,Vegetarian,Urban,0,0,0,1,0,1,0,0,0,0,0,0,1,Normal,Iron
+20,Male,Vegetarian,Urban,0,0,0,1,0,0,0,0,0,0,0,0,0,Normal,Vitamin D
+62,Female,Non-Vegetarian,Urban,0,0,0,1,0,0,0,0,0,0,0,0,0,Dry Skin,No Deficiency
+30,Male,Vegetarian,Rural,0,0,0,0,0,1,0,0,0,0,0,0,1,Pale/Yellow Skin,Zinc
+30,Male,Vegetarian,Urban,0,0,0,0,0,0,0,0,0,0,0,0,0,Normal,Iron
+32,Male,Non-Vegetarian,Urban,1,0,0,0,1,0,0,0,0,0,0,0,1,Normal,Zinc
+63,Male,Non-Vegetarian,Urban,0,0,0,1,0,0,0,1,0,0,0,0,1,Dry Skin,Vitamin C
+32,Male,Non-Vegetarian,Urban,0,0,0,1,0,0,0,0,0,0,0,0,0,Normal,Iron
+29,Male,Vegetarian,Rural,0,0,1,0,0,0,1,0,0,0,0,0,1,Normal,Vitamin C
+62,Male,Vegetarian,Rural,0,0,1,0,0,1,0,0,0,0,0,0,0,Normal,Iron
+53,Female,Non-Vegetarian,Urban,1,1,0,0,0,0,0,1,0,0,0,0,0,Rough Skin,Vitamin D
+17,Male,Vegetarian,Urban,0,1,0,0,1,1,0,0,0,0,0,0,1,Pale/Yellow Skin,Vitamin B12
+17,Male,Non-Vegetarian,Urban,0,0,0,0,0,1,0,0,0,1,0,0,0,Normal,No Deficiency
+14,Male,Non-Vegetarian,Urban,0,0,0,0,0,0,0,0,1,0,0,0,0,Normal,Vitamin D
+66,Female,Vegetarian,Urban,0,0,0,0,0,0,1,0,0,0,0,0,1,Normal,No Deficiency
+29,Female,Vegetarian,Rural,1,0,0,0,0,0,0,0,0,0,0,0,0,Normal,No Deficiency
+14,Female,Vegetarian,Urban,0,0,0,0,0,1,0,0,0,0,0,0,0,Normal,Vitamin B12
+62,Male,Vegetarian,Rural,0,0,0,0,0,0,1,1,1,0,0,0,0,Normal,No Deficiency
+66,Female,Vegetarian,Urban,1,0,0,0,0,0,1,0,0,1,0,0,0,Dry Skin,No Deficiency
+29,Female,Vegetarian,Rural,0,0,0,1,0,1,0,0,1,1,0,0,0,Pale/Yellow Skin,No Deficiency
+52,Male,Non-Vegetarian,Urban,0,0,0,0,0,1,0,0,0,0,1,0,1,Normal,Iron
+17,Female,Vegetarian,Rural,1,0,0,0,1,0,0,0,0,0,0,0,0,Dry Skin,No Deficiency
+64,Male,Non-Vegetarian,Rural,0,1,0,1,1,1,0,0,0,0,0,0,0,Rough Skin,Vitamin B12
+51,Female,Non-Vegetarian,Rural,0,0,0,0,0,0,0,0,0,1,0,0,0,Normal,No Deficiency
+59,Female,Non-Vegetarian,Rural,0,0,0,0,0,0,0,0,0,0,0,0,0,Dry Skin,No Deficiency
+57,Female,Non-Vegetarian,Rural,0,0,0,0,1,0,0,0,0,1,0,0,1,Rough Skin,Vitamin B12
+51,Female,Vegetarian,Urban,0,0,0,0,0,1,0,0,0,0,0,0,0,Normal,Vitamin D
+36,Male,Vegetarian,Urban,0,0,1,0,0,1,0,0,0,0,0,1,0,Normal,No Deficiency
+24,Female,Vegetarian,Urban,0,0,0,0,0,0,0,0,0,1,0,0,1,Normal,Vitamin C
+34,Female,Vegetarian,Urban,0,1,0,0,0,0,0,0,0,0,0,1,1,Rough Skin,Vitamin C
+22,Female,Vegetarian,Urban,0,0,0,0,0,0,0,0,1,1,0,0,1,Rough Skin,No Deficiency
+41,Female,Vegetarian,Rural,0,0,0,1,0,0,0,0,0,0,0,0,0,Normal,Vitamin A
+24,Female,Non-Vegetarian,Rural,0,0,0,0,0,1,0,0,1,0,0,0,0,Normal,Iron
+59,Male,Vegetarian,Urban,0,0,0,0,0,0,1,0,0,0,0,0,0,Normal,Vitamin B12
+16,Male,Vegetarian,Urban,0,0,0,0,0,1,0,0,0,1,0,1,0,Normal,Iron
+51,Female,Vegetarian,Urban,0,0,0,1,0,0,0,0,1,1,1,0,0,Normal,No Deficiency
+51,Male,Non-Vegetarian,Rural,0,0,0,1,0,1,0,1,0,0,0,0,0,Dry Skin,No Deficiency
+28,Female,Vegetarian,Rural,0,0,0,1,0,0,1,0,0,0,0,0,0,Rough Skin,Iron
+14,Male,Non-Vegetarian,Rural,0,0,0,1,0,0,0,0,0,0,0,0,0,Rough Skin,No Deficiency
+52,Female,Vegetarian,Urban,0,0,0,1,0,0,1,0,0,0,0,0,0,Normal,No Deficiency
+18,Male,Vegetarian,Urban,0,0,0,0,0,0,1,0,0,0,0,0,0,Dry Skin,No Deficiency
+34,Female,Vegetarian,Urban,0,0,0,0,0,0,0,0,0,0,0,0,1,Normal,Vitamin C
+28,Male,Vegetarian,Urban,0,0,0,1,0,0,0,0,0,0,0,0,0,Normal,Vitamin B12
+49,Male,Non-Vegetarian,Rural,0,1,0,0,0,0,0,1,1,0,1,0,0,Normal,Vitamin B12
+19,Male,Non-Vegetarian,Urban,0,0,0,0,0,0,1,0,0,0,0,0,0,Rough Skin,No Deficiency
+65,Female,Non-Vegetarian,Urban,0,1,0,0,0,0,0,0,0,0,0,0,0,Normal,Iron
+67,Male,Vegetarian,Urban,0,0,0,1,0,0,0,0,0,0,0,0,1,Normal,Zinc
+11,Male,Non-Vegetarian,Urban,0,0,0,1,0,1,0,1,1,0,0,0,0,Dry Skin,No Deficiency
+55,Male,Vegetarian,Urban,0,0,0,0,0,1,0,0,0,0,0,0,0,Dry Skin,No Deficiency
+34,Male,Vegetarian,Rural,0,0,0,1,1,0,0,0,0,0,0,0,1,Dry Skin,Vitamin C
+46,Male,Vegetarian,Rural,0,0,0,1,0,1,0,0,0,0,1,1,1,Normal,Vitamin C
+35,Female,Vegetarian,Rural,0,0,0,1,0,1,0,0,0,0,0,0,0,Normal,Vitamin B12
+20,Female,Vegetarian,Urban,0,0,0,0,0,1,1,0,0,0,1,0,0,Rough Skin,Vitamin B12
+27,Male,Vegetarian,Rural,0,0,0,0,0,0,0,0,0,0,0,0,0,Pale/Yellow Skin,Vitamin D
+41,Male,Non-Vegetarian,Urban,0,0,0,1,0,0,0,0,0,0,0,0,0,Normal,Iron
+32,Female,Vegetarian,Rural,0,0,0,1,0,1,0,0,0,0,0,0,0,Normal,No Deficiency
+38,Male,Non-Vegetarian,Rural,1,0,0,0,0,0,0,0,0,0,0,1,1,Normal,Vitamin B12
+25,Female,Non-Vegetarian,Rural,0,0,0,0,0,0,0,0,0,1,1,0,0,Normal,No Deficiency
+10,Female,Non-Vegetarian,Urban,1,0,0,0,0,0,0,0,0,0,0,1,0,Normal,Iron
+45,Female,Vegetarian,Rural,0,0,0,1,0,0,0,0,0,0,0,0,0,Normal,No Deficiency
+23,Female,Vegetarian,Rural,0,1,0,0,0,0,0,0,0,0,0,0,0,Dry Skin,No Deficiency
+20,Male,Vegetarian,Rural,0,0,0,0,0,0,1,1,0,0,0,0,1,Rough Skin,Vitamin A
+48,Female,Vegetarian,Rural,0,0,0,1,0,1,0,0,0,1,0,1,1,Rough Skin,Vitamin A
+38,Male,Non-Vegetarian,Rural,0,0,0,0,0,0,1,1,1,0,0,0,0,Normal,No Deficiency
+24,Female,Vegetarian,Urban,0,0,0,0,0,0,0,0,0,0,0,1,0,Pale/Yellow Skin,Iron
+47,Female,Vegetarian,Urban,0,0,1,0,0,0,0,0,0,1,0,0,0,Normal,No Deficiency
+40,Male,Non-Vegetarian,Urban,0,0,0,0,1,1,0,0,0,0,0,0,1,Pale/Yellow Skin,Iron
+20,Male,Vegetarian,Urban,1,0,0,1,0,1,0,0,0,1,0,0,0,Rough Skin,No Deficiency
+20,Male,Vegetarian,Urban,0,0,0,1,0,0,0,0,0,0,0,0,0,Normal,Vitamin D
+32,Male,Non-Vegetarian,Urban,0,1,0,0,0,0,0,0,1,0,0,0,1,Normal,Zinc
+28,Male,Vegetarian,Urban,0,0,0,0,0,1,0,0,0,0,1,0,1,Normal,Zinc
+45,Male,Non-Vegetarian,Urban,0,0,0,1,0,0,0,0,0,0,0,0,1,Normal,Zinc
+33,Female,Non-Vegetarian,Rural,0,0,0,0,0,0,0,0,0,0,0,0,0,Normal,Vitamin A
+63,Female,Non-Vegetarian,Rural,0,0,0,0,0,1,0,0,0,0,0,0,1,Normal,Zinc
+32,Male,Non-Vegetarian,Rural,0,1,0,1,0,0,0,0,1,0,0,0,0,Normal,No Deficiency
+29,Female,Vegetarian,Urban,0,0,0,0,0,1,0,0,1,0,1,1,0,Rough Skin,No Deficiency
+35,Male,Non-Vegetarian,Urban,0,0,0,0,0,0,1,0,1,0,0,0,0,Rough Skin,Vitamin A
+43,Male,Non-Vegetarian,Rural,0,0,0,0,0,0,0,0,1,0,1,0,0,Dry Skin,No Deficiency
+19,Male,Non-Vegetarian,Rural,0,0,0,0,0,1,0,0,0,0,0,0,1,Dry Skin,No Deficiency
+59,Male,Non-Vegetarian,Urban,0,0,0,1,0,0,0,0,1,0,0,0,0,Normal,No Deficiency
+69,Male,Non-Vegetarian,Urban,0,0,0,1,0,0,0,0,1,0,0,0,1,Dry Skin,Iron
+22,Female,Vegetarian,Urban,0,0,0,0,0,0,0,0,0,0,0,0,0,Dry Skin,No Deficiency
+18,Female,Vegetarian,Rural,0,0,0,1,1,0,0,0,0,0,0,0,0,Pale/Yellow Skin,No Deficiency
+43,Female,Non-Vegetarian,Rural,1,0,1,0,1,0,0,0,0,0,0,0,0,Normal,Vitamin D
+40,Female,Vegetarian,Rural,0,0,0,1,0,0,0,0,0,0,0,1,0,Dry Skin,Iron
+41,Female,Non-Vegetarian,Rural,0,0,1,1,0,0,0,0,0,0,0,0,0,Rough Skin,Vitamin D
+12,Male,Non-Vegetarian,Rural,0,0,0,1,0,0,0,0,0,0,0,0,0,Normal,Iron
+50,Female,Vegetarian,Urban,1,0,0,0,0,0,0,0,0,0,0,0,0,Pale/Yellow Skin,Vitamin A
+45,Male,Vegetarian,Rural,0,0,0,0,0,0,0,1,0,0,0,0,1,Normal,Zinc
+25,Male,Non-Vegetarian,Rural,0,0,0,0,0,0,0,0,0,0,0,0,0,Dry Skin,Iron
+36,Female,Non-Vegetarian,Urban,0,0,0,0,0,0,1,0,0,0,0,0,0,Normal,No Deficiency
+22,Male,Non-Vegetarian,Rural,0,0,0,0,0,1,0,0,0,1,0,0,1,Dry Skin,Vitamin C
+41,Male,Non-Vegetarian,Rural,0,0,0,0,1,0,0,0,0,1,0,0,0,Normal,Vitamin B12
+16,Female,Non-Vegetarian,Rural,0,0,0,0,0,0,0,0,0,0,0,0,1,Normal,No Deficiency
+55,Female,Non-Vegetarian,Urban,1,0,0,1,0,0,1,0,0,0,0,0,0,Normal,Iron
+48,Male,Vegetarian,Rural,0,0,0,0,0,0,0,0,0,0,0,0,1,Rough Skin,Vitamin C
+39,Female,Non-Vegetarian,Rural,0,0,0,1,0,0,0,0,0,0,0,0,1,Dry Skin,Zinc
+48,Female,Vegetarian,Urban,0,0,0,0,0,0,0,0,0,1,0,1,0,Normal,Iron
+16,Female,Vegetarian,Rural,0,0,0,0,0,1,0,0,0,1,0,0,0,Normal,No Deficiency
+43,Male,Non-Vegetarian,Urban,0,0,0,0,0,1,0,0,0,0,0,0,0,Normal,Vitamin D
+40,Female,Vegetarian,Urban,0,0,0,1,0,1,1,0,0,0,1,0,1,Normal,Vitamin C
+20,Female,Non-Vegetarian,Rural,0,0,0,0,0,1,1,0,0,1,1,0,0,Rough Skin,No Deficiency
+39,Male,Vegetarian,Rural,0,0,0,1,0,1,0,0,1,1,0,0,0,Normal,Iron
+50,Male,Non-Vegetarian,Urban,1,0,0,0,0,0,0,0,0,0,0,0,0,Pale/Yellow Skin,Vitamin D
+13,Male,Non-Vegetarian,Rural,0,0,0,0,0,1,0,0,1,1,1,0,0,Normal,No Deficiency
+15,Male,Non-Vegetarian,Urban,0,0,0,0,0,1,0,0,1,1,0,0,0,Dry Skin,Iron
+14,Female,Non-Vegetarian,Urban,0,0,1,0,0,1,0,0,0,0,1,0,1,Pale/Yellow Skin,Vitamin C
+32,Female,Non-Vegetarian,Rural,0,0,0,0,0,0,0,0,0,1,1,1,0,Normal,No Deficiency
+41,Female,Vegetarian,Rural,0,0,0,1,0,1,0,0,1,0,1,0,0,Normal,Vitamin A
+21,Male,Non-Vegetarian,Urban,0,0,0,0,0,1,0,0,0,0,0,0,1,Normal,Vitamin A
+49,Female,Vegetarian,Urban,0,1,0,0,0,0,0,0,0,0,0,0,1,Normal,No Deficiency
+25,Male,Non-Vegetarian,Rural,0,0,1,0,0,0,0,0,0,0,0,0,0,Dry Skin,No Deficiency
+48,Female,Vegetarian,Urban,0,0,0,0,0,1,0,1,0,1,0,0,1,Normal,Vitamin A
+59,Female,Non-Vegetarian,Urban,1,0,0,0,0,0,0,0,0,0,0,0,0,Dry Skin,No Deficiency
+25,Female,Non-Vegetarian,Rural,0,0,0,0,0,0,0,0,0,0,0,0,0,Pale/Yellow Skin,No Deficiency
+52,Male,Vegetarian,Rural,0,0,0,0,0,0,1,0,0,0,0,0,0,Normal,Iron
+32,Male,Non-Vegetarian,Urban,0,0,0,0,0,1,0,0,0,0,0,0,1,Dry Skin,Iron
+26,Female,Non-Vegetarian,Rural,0,0,0,0,0,0,0,0,0,0,0,0,0,Dry Skin,Iron
+30,Female,Vegetarian,Rural,0,0,1,1,0,0,0,0,0,0,1,1,0,Pale/Yellow Skin,No Deficiency
+69,Male,Vegetarian,Rural,0,0,0,0,0,0,0,0,0,0,0,0,0,Normal,Vitamin A
+24,Female,Vegetarian,Urban,0,0,0,1,0,1,1,1,0,0,0,0,0,Normal,Iron
+65,Female,Vegetarian,Rural,0,0,0,0,0,0,0,0,0,0,0,0,0,Rough Skin,Vitamin A
+40,Male,Vegetarian,Rural,0,0,0,0,1,0,0,1,0,0,0,0,1,Normal,Vitamin A
+21,Male,Non-Vegetarian,Urban,0,1,0,0,0,0,1,0,0,0,0,0,0,Normal,Iron
+35,Male,Non-Vegetarian,Urban,0,0,0,0,0,0,0,1,0,1,0,0,0,Normal,No Deficiency
+41,Female,Non-Vegetarian,Urban,0,0,0,0,0,0,0,0,0,0,0,0,1,Normal,No Deficiency
+32,Male,Non-Vegetarian,Rural,0,0,0,0,0,0,0,0,0,0,0,0,1,Pale/Yellow Skin,Vitamin C
+23,Female,Vegetarian,Urban,0,0,0,1,0,0,0,0,0,1,0,0,1,Normal,Iron
+47,Female,Vegetarian,Urban,0,0,1,1,0,0,0,1,0,0,0,0,0,Rough Skin,Vitamin B12
+41,Male,Non-Vegetarian,Rural,1,1,0,1,0,1,0,0,0,0,0,0,0,Dry Skin,No Deficiency
+50,Male,Non-Vegetarian,Urban,0,0,0,1,0,0,0,0,1,1,0,0,0,Dry Skin,No Deficiency
+40,Female,Vegetarian,Urban,0,1,0,1,0,0,0,0,0,1,0,0,1,Normal,Zinc
+15,Male,Vegetarian,Rural,1,0,0,1,0,0,1,0,0,0,0,0,1,Normal,Vitamin C
+38,Male,Vegetarian,Urban,1,0,1,0,0,1,0,0,0,0,0,0,0,Rough Skin,Vitamin D
+49,Male,Non-Vegetarian,Urban,0,0,0,0,0,0,0,1,0,0,0,0,1,Dry Skin,Vitamin D
+25,Male,Vegetarian,Urban,0,0,0,0,1,0,1,0,0,0,0,0,0,Rough Skin,No Deficiency
+24,Male,Vegetarian,Urban,0,0,0,0,0,1,0,0,0,0,0,0,0,Dry Skin,Vitamin D
+69,Male,Vegetarian,Urban,0,1,0,0,0,1,0,0,0,1,0,0,0,Dry Skin,No Deficiency
+27,Female,Non-Vegetarian,Rural,0,0,0,1,1,0,0,0,0,0,0,0,1,Normal,Vitamin C
+53,Male,Vegetarian,Urban,0,1,0,0,0,0,0,0,0,0,0,0,0,Normal,Iron
+20,Female,Non-Vegetarian,Rural,0,0,0,0,0,0,0,0,0,0,0,0,0,Normal,Vitamin D
+28,Female,Vegetarian,Rural,0,0,0,0,0,0,0,0,1,0,0,0,0,Normal,Vitamin B12
+16,Female,Non-Vegetarian,Rural,0,0,0,1,0,1,0,0,0,0,0,0,0,Normal,Vitamin D
+11,Male,Vegetarian,Rural,1,0,0,0,0,1,0,0,0,0,0,0,0,Normal,Iron
+50,Female,Vegetarian,Rural,0,0,0,1,1,0,0,0,0,0,0,1,1,Normal,Vitamin C
+64,Male,Non-Vegetarian,Rural,1,0,0,1,0,1,0,0,0,0,0,0,0,Normal,Iron
+40,Female,Vegetarian,Urban,0,0,0,0,0,0,0,0,1,0,1,0,0,Pale/Yellow Skin,No Deficiency
+21,Male,Non-Vegetarian,Rural,0,0,0,1,0,0,0,0,0,0,0,0,0,Normal,Vitamin B12
+61,Female,Vegetarian,Urban,0,0,0,0,0,1,0,0,0,0,0,0,1,Normal,Zinc
+62,Female,Vegetarian,Rural,0,0,0,0,1,0,0,0,0,0,0,0,1,Dry Skin,No Deficiency
+11,Male,Vegetarian,Rural,0,0,0,1,1,0,0,1,0,1,0,0,1,Normal,No Deficiency
+33,Female,Non-Vegetarian,Rural,0,0,0,0,1,0,0,0,0,0,0,0,0,Normal,Iron
+59,Male,Non-Vegetarian,Urban,0,0,0,0,0,1,0,0,0,0,0,0,1,Normal,Zinc
+13,Male,Vegetarian,Urban,0,0,1,0,0,1,1,0,0,0,0,0,0,Dry Skin,No Deficiency
+58,Male,Vegetarian,Urban,0,0,0,1,0,0,0,1,1,0,0,0,1,Normal,Vitamin C
+61,Male,Vegetarian,Urban,0,0,0,1,0,1,0,0,1,0,0,0,0,Normal,No Deficiency
+36,Female,Non-Vegetarian,Urban,0,0,1,0,1,0,0,0,0,0,0,0,0,Normal,Vitamin D
+69,Female,Non-Vegetarian,Urban,0,0,0,1,0,0,0,0,0,0,0,1,0,Normal,Vitamin D
+37,Female,Vegetarian,Rural,0,0,0,0,0,0,0,0,0,0,0,0,0,Normal,Vitamin D
+22,Female,Non-Vegetarian,Urban,0,0,0,0,0,0,0,1,0,0,0,0,0,Dry Skin,Vitamin D
+51,Male,Non-Vegetarian,Rural,0,0,0,0,0,0,0,0,0,0,0,0,0,Rough Skin,Iron
+10,Male,Vegetarian,Urban,0,0,0,1,0,1,0,1,0,0,1,0,1,Normal,Vitamin C
+24,Male,Vegetarian,Urban,0,0,1,0,0,0,1,0,0,0,1,0,0,Normal,No Deficiency
+62,Female,Vegetarian,Rural,0,0,0,0,0,0,0,0,0,1,0,0,1,Normal,Iron
+55,Male,Non-Vegetarian,Rural,0,0,0,0,0,0,0,0,0,1,0,1,1,Rough Skin,Vitamin C
+58,Male,Vegetarian,Rural,0,0,0,0,0,0,0,0,0,0,0,0,0,Pale/Yellow Skin,No Deficiency
+63,Female,Vegetarian,Urban,0,0,0,0,0,0,0,0,0,0,0,0,0,Pale/Yellow Skin,Vitamin A
+54,Female,Vegetarian,Rural,0,0,0,1,0,0,0,0,0,0,0,0,1,Rough Skin,Vitamin B12
+38,Female,Vegetarian,Urban,0,0,0,0,0,0,0,1,0,0,0,0,0,Normal,No Deficiency
+67,Male,Vegetarian,Urban,1,0,0,0,0,0,0,0,0,1,0,0,1,Normal,Zinc
+68,Female,Vegetarian,Rural,0,0,1,0,0,1,0,1,0,0,0,0,0,Normal,Vitamin D
+41,Male,Non-Vegetarian,Rural,0,0,1,0,0,0,0,0,0,0,0,0,1,Rough Skin,Zinc
+55,Male,Non-Vegetarian,Rural,0,1,0,0,0,0,0,0,0,0,0,0,0,Normal,Vitamin B12
+20,Female,Non-Vegetarian,Urban,0,1,0,1,0,0,0,0,0,0,0,0,1,Dry Skin,Vitamin C
+17,Male,Non-Vegetarian,Rural,0,0,0,1,0,1,0,0,1,0,0,0,0,Rough Skin,Vitamin B12
+47,Female,Vegetarian,Urban,0,1,0,0,0,1,0,0,0,0,0,0,0,Rough Skin,Iron
+20,Male,Vegetarian,Urban,0,0,0,0,1,1,0,0,1,0,0,0,0,Normal,Vitamin D
+66,Female,Vegetarian,Rural,0,0,0,0,0,0,1,1,0,0,0,1,0,Normal,Iron
+27,Male,Vegetarian,Rural,0,1,0,0,0,0,1,0,0,0,1,0,0,Pale/Yellow Skin,No Deficiency
+21,Male,Vegetarian,Rural,0,0,0,1,0,0,0,1,0,1,0,0,1,Rough Skin,Vitamin C
+68,Female,Non-Vegetarian,Urban,0,0,1,1,0,0,0,0,0,1,0,0,0,Normal,No Deficiency
+46,Female,Non-Vegetarian,Urban,1,0,0,1,1,0,0,0,0,0,0,0,0,Dry Skin,No Deficiency
+63,Female,Vegetarian,Urban,0,0,0,1,0,0,1,1,0,0,0,0,1,Normal,Vitamin D
+17,Male,Non-Vegetarian,Urban,0,0,1,1,0,1,0,0,0,0,0,1,0,Normal,No Deficiency
+39,Female,Non-Vegetarian,Urban,0,1,0,1,0,0,0,0,1,0,0,0,1,Normal,Vitamin C
+11,Male,Vegetarian,Rural,0,1,1,1,1,0,0,0,0,0,1,0,0,Normal,Iron
+31,Female,Vegetarian,Rural,0,0,0,1,0,0,1,0,0,1,0,0,0,Normal,Vitamin D
+49,Female,Vegetarian,Urban,0,0,0,1,0,0,0,0,0,0,0,0,0,Normal,No Deficiency
+13,Male,Vegetarian,Urban,0,1,1,1,0,0,0,0,0,0,0,0,0,Normal,Vitamin B12
+24,Female,Vegetarian,Rural,0,0,0,1,0,0,0,0,0,1,0,0,1,Rough Skin,Vitamin C
+63,Male,Non-Vegetarian,Rural,0,0,0,1,0,0,0,0,1,0,0,0,1,Dry Skin,Zinc
+57,Male,Vegetarian,Urban,0,0,1,1,0,0,1,0,1,0,0,0,0,Pale/Yellow Skin,Iron
+19,Female,Vegetarian,Urban,0,0,0,0,0,1,1,1,0,0,0,0,0,Normal,Vitamin B12
+43,Female,Vegetarian,Rural,1,0,1,0,1,0,0,0,0,0,0,0,1,Rough Skin,Vitamin C
+38,Female,Non-Vegetarian,Urban,0,0,0,0,1,1,0,0,0,0,0,1,0,Normal,Iron
+58,Female,Vegetarian,Urban,0,1,1,0,0,0,0,1,0,0,0,0,0,Normal,Vitamin B12
+22,Female,Non-Vegetarian,Rural,1,0,0,0,0,0,0,1,0,0,0,0,0,Normal,Vitamin D
+64,Female,Vegetarian,Urban,0,0,1,1,0,1,0,0,0,0,0,0,0,Normal,Vitamin D
+61,Male,Vegetarian,Rural,0,0,0,1,0,0,0,0,0,0,0,0,1,Normal,Iron
+17,Female,Non-Vegetarian,Urban,0,1,0,0,0,0,0,0,0,0,0,0,1,Dry Skin,Iron
+43,Male,Vegetarian,Rural,0,0,0,1,1,1,0,1,0,1,0,0,1,Normal,Vitamin C
+54,Female,Vegetarian,Rural,0,0,0,1,0,0,0,1,0,1,0,0,0,Rough Skin,No Deficiency
+69,Male,Non-Vegetarian,Rural,0,0,0,0,0,1,0,1,0,0,0,0,0,Normal,No Deficiency
+52,Female,Non-Vegetarian,Rural,0,0,0,0,1,0,0,1,0,0,0,0,0,Dry Skin,No Deficiency
+16,Female,Vegetarian,Rural,0,0,0,0,0,1,0,0,0,0,0,0,1,Normal,Vitamin C
+67,Female,Vegetarian,Urban,0,0,0,1,0,0,0,1,0,0,0,0,0,Rough Skin,No Deficiency
+19,Male,Vegetarian,Urban,1,0,0,1,0,1,0,0,0,0,0,0,1,Normal,No Deficiency
+56,Male,Vegetarian,Urban,0,0,0,1,1,0,0,1,0,0,0,0,0,Rough Skin,Vitamin A
+25,Male,Non-Vegetarian,Rural,0,0,1,1,0,1,0,0,0,0,0,1,0,Normal,Vitamin A
+23,Male,Non-Vegetarian,Urban,0,0,0,0,1,0,0,0,0,0,0,0,0,Normal,Iron
+27,Male,Non-Vegetarian,Urban,0,0,0,0,0,1,0,0,0,0,0,0,0,Normal,Vitamin A
+18,Female,Vegetarian,Rural,0,0,0,1,0,1,0,1,0,0,0,0,1,Normal,Zinc
+15,Female,Non-Vegetarian,Rural,0,0,1,0,0,0,0,1,0,0,0,1,1,Normal,Iron
+47,Male,Non-Vegetarian,Rural,0,0,0,1,0,1,0,1,0,1,0,0,1,Pale/Yellow Skin,Vitamin C
+10,Female,Non-Vegetarian,Rural,0,0,0,1,1,0,0,0,1,0,1,0,1,Normal,Vitamin A
+44,Female,Non-Vegetarian,Urban,0,1,0,1,1,1,0,0,0,0,0,0,0,Normal,Vitamin D
+20,Male,Non-Vegetarian,Rural,1,1,1,0,0,0,0,0,1,0,0,1,0,Normal,Iron
+34,Male,Vegetarian,Rural,1,0,0,1,0,0,0,1,0,0,0,1,0,Rough Skin,No Deficiency
+30,Female,Vegetarian,Urban,0,1,0,1,0,0,0,0,1,0,0,0,1,Normal,Vitamin C
+68,Male,Non-Vegetarian,Urban,0,0,0,0,0,0,0,0,0,0,0,0,1,Dry Skin,Vitamin D
+45,Female,Vegetarian,Urban,0,0,0,1,0,1,0,0,0,1,0,0,1,Normal,Iron
+59,Male,Vegetarian,Urban,0,0,0,1,0,0,0,0,0,0,0,0,1,Normal,Iron
+22,Male,Non-Vegetarian,Rural,0,1,0,0,0,1,0,0,0,0,0,0,0,Normal,Iron
+58,Male,Non-Vegetarian,Rural,0,0,0,1,0,1,0,0,0,0,0,0,1,Normal,Vitamin C
+51,Male,Non-Vegetarian,Rural,0,1,0,0,0,1,0,1,0,0,0,0,0,Normal,Vitamin B12
+52,Female,Vegetarian,Urban,0,0,0,0,0,0,0,0,0,0,0,0,0,Normal,Iron
+66,Female,Non-Vegetarian,Rural,0,0,0,0,0,0,0,0,0,0,0,0,0,Normal,Iron
+50,Male,Non-Vegetarian,Rural,0,0,0,1,1,0,1,0,1,1,0,0,0,Normal,Iron
+47,Male,Vegetarian,Urban,0,0,0,0,0,1,0,1,0,1,0,1,0,Dry Skin,Vitamin B12
+53,Female,Vegetarian,Urban,0,1,0,1,0,0,0,0,0,1,0,0,0,Dry Skin,No Deficiency
+52,Female,Non-Vegetarian,Rural,0,0,0,0,0,0,0,0,0,0,0,0,0,Rough Skin,Iron
+51,Female,Non-Vegetarian,Urban,0,0,1,1,0,0,0,0,0,0,0,0,1,Normal,Iron
+48,Male,Non-Vegetarian,Rural,0,0,0,0,0,0,0,0,0,0,0,1,0,Pale/Yellow Skin,No Deficiency
+68,Female,Non-Vegetarian,Urban,0,0,0,1,0,0,0,0,0,0,1,0,0,Normal,No Deficiency
+49,Female,Vegetarian,Rural,0,1,0,0,0,0,1,0,0,0,0,0,1,Normal,Vitamin D
+19,Female,Vegetarian,Rural,0,0,1,0,0,0,0,0,0,0,1,0,1,Normal,Vitamin A
+45,Male,Non-Vegetarian,Rural,0,0,0,0,0,0,1,0,0,0,0,0,0,Dry Skin,Iron
+43,Male,Vegetarian,Rural,0,0,0,1,0,1,1,0,1,0,1,0,0,Dry Skin,Iron
+61,Male,Non-Vegetarian,Rural,0,1,0,1,1,1,0,0,0,0,0,0,1,Normal,Vitamin C
+37,Male,Non-Vegetarian,Rural,0,1,0,0,0,0,0,0,1,0,0,0,0,Normal,Vitamin D
+26,Female,Vegetarian,Urban,0,0,0,1,0,0,0,1,0,1,0,0,1,Normal,Vitamin C
+31,Male,Vegetarian,Urban,1,0,0,1,0,1,0,1,0,0,0,0,0,Dry Skin,No Deficiency
+29,Male,Vegetarian,Rural,0,1,0,1,0,0,1,0,0,0,0,0,0,Dry Skin,No Deficiency
+29,Male,Non-Vegetarian,Urban,0,0,0,0,0,0,0,0,0,0,0,0,1,Normal,Vitamin C
+52,Female,Vegetarian,Rural,0,0,0,1,0,0,0,1,0,0,0,0,0,Normal,No Deficiency
+52,Female,Non-Vegetarian,Rural,0,0,0,0,0,0,0,0,0,0,0,0,0,Normal,Vitamin B12
+33,Female,Non-Vegetarian,Rural,0,0,1,0,1,0,1,1,0,1,0,0,0,Normal,Iron
+41,Male,Vegetarian,Rural,0,0,1,0,0,1,0,0,0,0,0,0,0,Pale/Yellow Skin,No Deficiency
+18,Male,Vegetarian,Urban,0,0,0,1,0,1,0,0,0,0,0,0,0,Normal,Vitamin D
+37,Male,Non-Vegetarian,Urban,0,0,0,1,0,1,0,0,0,0,0,0,0,Normal,No Deficiency
+28,Male,Vegetarian,Urban,0,1,0,1,0,0,0,1,0,0,0,1,0,Pale/Yellow Skin,Vitamin D
+49,Female,Vegetarian,Urban,0,0,0,0,0,0,1,0,0,1,0,0,0,Normal,No Deficiency
+37,Female,Vegetarian,Rural,1,0,0,0,1,0,0,0,0,0,0,0,0,Normal,Vitamin A
+34,Male,Vegetarian,Rural,0,0,0,1,0,1,0,1,0,0,0,0,0,Dry Skin,Iron
+44,Female,Vegetarian,Rural,1,1,0,1,0,0,0,1,0,0,0,0,0,Normal,No Deficiency
+36,Male,Non-Vegetarian,Urban,0,0,0,1,0,0,1,1,0,0,0,0,0,Normal,No Deficiency
+26,Female,Vegetarian,Urban,0,0,0,0,0,0,0,0,0,0,0,0,1,Normal,Zinc
+27,Female,Non-Vegetarian,Rural,0,0,0,0,0,0,0,0,0,0,1,0,0,Dry Skin,Iron
+35,Male,Non-Vegetarian,Rural,0,1,0,1,0,1,1,0,0,0,0,0,1,Normal,Zinc
+49,Male,Vegetarian,Rural,0,0,0,0,0,0,0,0,0,0,0,0,0,Normal,No Deficiency
+34,Female,Non-Vegetarian,Urban,0,0,0,0,1,1,0,0,0,0,0,0,1,Normal,Zinc
+60,Male,Vegetarian,Rural,0,0,0,1,0,0,0,1,0,0,0,0,0,Dry Skin,Vitamin A
+15,Female,Vegetarian,Rural,0,0,0,1,0,0,0,0,0,0,0,0,0,Dry Skin,Iron
+13,Female,Non-Vegetarian,Urban,0,0,0,1,0,1,0,1,0,0,0,0,0,Normal,Vitamin D
+45,Male,Vegetarian,Rural,0,0,0,1,0,0,0,0,0,0,0,0,0,Normal,No Deficiency
+64,Female,Non-Vegetarian,Rural,0,0,0,0,0,0,0,0,0,0,1,0,0,Pale/Yellow Skin,No Deficiency
+59,Male,Vegetarian,Urban,0,1,0,0,0,1,0,0,0,0,0,0,0,Normal,Vitamin B12
+36,Female,Non-Vegetarian,Rural,0,0,0,1,0,0,0,0,0,0,1,0,0,Normal,Iron
+19,Male,Vegetarian,Urban,1,0,1,0,0,0,0,0,0,0,1,0,0,Normal,Vitamin B12
+15,Female,Vegetarian,Urban,0,0,0,1,0,0,0,0,0,0,0,0,0,Normal,Iron
+38,Male,Non-Vegetarian,Rural,0,1,1,1,0,0,0,1,1,0,0,0,0,Pale/Yellow Skin,Iron
+60,Male,Non-Vegetarian,Urban,0,0,1,1,0,0,0,0,0,0,0,0,0,Normal,Iron
+25,Male,Vegetarian,Rural,0,1,0,0,0,0,0,0,0,1,0,0,1,Normal,Iron
+31,Male,Non-Vegetarian,Urban,0,0,0,0,0,0,1,0,0,1,0,0,1,Normal,No Deficiency
+43,Female,Vegetarian,Rural,0,0,0,0,0,0,0,0,0,0,1,0,0,Normal,Vitamin B12
+33,Female,Non-Vegetarian,Rural,0,0,0,1,0,1,0,1,0,0,0,0,0,Dry Skin,Vitamin A
+57,Male,Vegetarian,Urban,0,0,0,0,0,1,0,0,0,0,1,0,0,Normal,Iron
+32,Male,Vegetarian,Urban,0,0,0,0,0,0,0,1,0,0,0,0,0,Normal,Vitamin B12
+47,Male,Non-Vegetarian,Urban,0,0,0,0,1,0,0,0,0,0,0,0,1,Rough Skin,Vitamin C
+66,Male,Vegetarian,Rural,0,0,0,1,0,1,1,0,0,0,1,0,0,Normal,Iron
+34,Female,Non-Vegetarian,Rural,0,0,0,1,0,1,1,0,1,0,0,0,0,Dry Skin,Iron
+24,Female,Non-Vegetarian,Rural,1,0,0,0,0,0,1,0,0,0,0,0,0,Dry Skin,Iron
+57,Male,Non-Vegetarian,Urban,0,0,0,1,0,1,0,0,0,1,0,1,0,Dry Skin,No Deficiency
+32,Female,Vegetarian,Urban,0,0,0,0,0,0,0,0,0,0,1,0,1,Pale/Yellow Skin,Vitamin A
+40,Male,Vegetarian,Urban,0,0,0,0,1,0,0,0,1,0,1,0,0,Pale/Yellow Skin,Iron
+50,Male,Non-Vegetarian,Rural,0,0,0,0,0,0,0,0,0,1,0,1,0,Normal,Vitamin A
+34,Male,Non-Vegetarian,Rural,0,0,0,0,0,0,0,0,0,1,0,0,0,Normal,Vitamin D
+68,Male,Non-Vegetarian,Urban,0,0,0,0,1,0,0,0,1,0,0,1,0,Normal,Vitamin D
+21,Female,Non-Vegetarian,Urban,0,0,0,1,0,0,0,0,0,0,0,0,1,Normal,Vitamin A
+11,Male,Non-Vegetarian,Rural,0,0,0,1,0,1,1,0,0,0,0,0,0,Normal,Iron
+57,Female,Non-Vegetarian,Rural,0,0,0,0,0,0,0,0,0,0,1,0,0,Normal,No Deficiency
+23,Male,Non-Vegetarian,Rural,0,0,0,0,0,0,0,1,0,0,0,0,0,Normal,No Deficiency
+38,Female,Non-Vegetarian,Urban,0,0,0,1,0,0,0,0,0,0,0,0,0,Normal,No Deficiency
+20,Male,Vegetarian,Rural,0,0,0,1,0,1,0,0,0,0,0,0,1,Rough Skin,Vitamin C
+58,Female,Vegetarian,Rural,0,0,0,0,0,0,0,0,1,0,0,0,1,Dry Skin,Zinc
+27,Female,Non-Vegetarian,Rural,0,0,0,1,0,0,0,0,1,0,0,0,0,Normal,No Deficiency
+46,Male,Vegetarian,Rural,0,0,0,0,1,1,0,1,0,0,0,0,0,Rough Skin,No Deficiency
+54,Male,Non-Vegetarian,Rural,0,0,0,0,0,0,0,1,0,1,0,0,1,Dry Skin,Zinc
+53,Male,Non-Vegetarian,Urban,0,0,0,1,1,0,0,0,0,0,0,0,0,Normal,No Deficiency
+54,Female,Non-Vegetarian,Urban,0,0,0,0,0,1,1,0,0,0,0,0,1,Normal,Zinc
+57,Male,Vegetarian,Rural,0,0,0,1,0,1,0,0,1,0,0,0,0,Normal,Vitamin A
+23,Male,Vegetarian,Urban,0,0,0,1,0,0,1,0,1,1,0,0,0,Normal,Iron
+69,Female,Non-Vegetarian,Urban,0,0,0,0,0,0,0,0,0,0,0,0,1,Normal,No Deficiency
+16,Female,Non-Vegetarian,Urban,0,0,0,1,0,1,0,0,0,0,0,0,0,Normal,Iron
+13,Female,Vegetarian,Rural,0,0,0,0,0,0,0,0,0,0,0,0,1,Normal,Vitamin C
+32,Female,Vegetarian,Rural,0,0,0,1,1,1,0,1,1,0,0,0,0,Normal,No Deficiency
+48,Female,Vegetarian,Urban,0,0,0,0,0,0,0,0,0,1,1,0,1,Dry Skin,Vitamin C
+14,Male,Non-Vegetarian,Urban,0,0,1,0,0,0,0,0,1,1,0,0,0,Normal,Vitamin A
+67,Male,Non-Vegetarian,Rural,0,1,0,0,0,0,0,1,0,0,1,0,1,Normal,Zinc
+35,Female,Vegetarian,Urban,0,1,0,0,0,1,0,0,1,0,0,0,1,Rough Skin,Vitamin C
+28,Male,Vegetarian,Rural,0,0,0,1,0,0,0,0,0,1,1,0,1,Normal,Zinc
+68,Female,Vegetarian,Urban,0,0,0,1,0,0,0,0,0,0,0,0,0,Rough Skin,No Deficiency
+18,Female,Non-Vegetarian,Rural,0,0,0,1,0,0,0,1,0,0,0,0,1,Normal,Zinc
+40,Female,Non-Vegetarian,Urban,0,0,0,1,0,1,0,0,0,1,0,0,0,Normal,Vitamin A
+25,Female,Vegetarian,Urban,0,0,1,1,0,0,0,0,0,0,0,1,0,Normal,Iron
+20,Female,Vegetarian,Rural,0,0,1,1,0,0,0,0,0,0,0,0,1,Normal,Iron
+38,Male,Vegetarian,Rural,1,0,0,1,0,0,0,1,0,1,0,0,1,Dry Skin,Zinc
+18,Female,Non-Vegetarian,Urban,0,1,0,0,0,0,0,0,0,0,1,0,0,Dry Skin,No Deficiency
+32,Female,Non-Vegetarian,Rural,0,0,0,0,0,0,1,0,1,0,1,0,0,Dry Skin,Iron
+29,Female,Vegetarian,Urban,1,1,0,0,0,0,0,0,0,0,1,0,1,Rough Skin,Zinc
+28,Female,Non-Vegetarian,Rural,1,0,0,1,0,1,0,1,1,0,0,0,0,Normal,Iron
+37,Male,Non-Vegetarian,Rural,0,0,1,0,0,0,0,0,1,0,0,0,0,Normal,Vitamin A
+17,Male,Vegetarian,Rural,0,0,0,1,0,1,0,0,0,0,0,0,0,Normal,No Deficiency
+38,Female,Non-Vegetarian,Urban,0,0,0,0,0,0,0,0,1,0,0,0,0,Normal,Vitamin B12
+52,Female,Non-Vegetarian,Urban,0,0,1,1,0,0,0,0,1,0,0,0,0,Rough Skin,Iron
+10,Female,Non-Vegetarian,Urban,0,0,0,1,0,0,0,1,0,0,0,0,0,Normal,No Deficiency
+22,Male,Non-Vegetarian,Urban,0,0,0,1,0,0,0,0,1,0,0,0,1,Normal,Vitamin C
+47,Male,Vegetarian,Urban,0,0,0,0,0,0,0,1,0,1,1,0,1,Dry Skin,Zinc
+41,Female,Vegetarian,Rural,0,0,1,0,1,0,1,0,0,0,1,0,1,Normal,Vitamin C
+51,Male,Non-Vegetarian,Urban,0,0,0,1,0,0,0,0,0,0,0,0,0,Dry Skin,No Deficiency
+67,Female,Non-Vegetarian,Rural,1,0,1,0,0,0,0,1,1,0,0,1,1,Normal,Vitamin A
+36,Male,Vegetarian,Rural,0,0,0,0,0,1,0,1,0,0,1,0,1,Normal,Vitamin C
+22,Female,Vegetarian,Rural,1,0,0,0,0,0,0,0,0,0,1,0,0,Normal,No Deficiency
+42,Female,Non-Vegetarian,Rural,0,0,1,0,0,0,0,0,0,0,0,0,0,Rough Skin,Vitamin D
+19,Female,Vegetarian,Rural,0,0,0,0,0,1,0,0,0,0,0,1,1,Pale/Yellow Skin,Zinc
+33,Female,Vegetarian,Urban,1,0,0,0,0,0,0,0,0,0,0,0,1,Normal,Zinc
+52,Female,Non-Vegetarian,Urban,0,1,0,1,1,0,0,0,0,1,0,0,0,Dry Skin,No Deficiency
+32,Male,Non-Vegetarian,Urban,1,0,0,1,0,0,0,0,0,0,0,0,0,Rough Skin,Vitamin B12
+27,Female,Non-Vegetarian,Urban,0,0,0,0,0,0,0,0,0,0,1,0,0,Normal,Vitamin D
+55,Male,Vegetarian,Rural,0,0,0,0,0,0,0,0,0,0,0,0,0,Pale/Yellow Skin,Iron
+55,Male,Vegetarian,Rural,0,1,0,0,0,1,0,0,0,0,0,1,0,Normal,No Deficiency
+12,Female,Vegetarian,Urban,0,0,0,1,0,0,0,0,1,0,1,1,1,Normal,Vitamin C
+56,Female,Vegetarian,Urban,0,1,0,1,0,0,0,0,0,1,0,0,0,Dry Skin,Iron
+39,Male,Non-Vegetarian,Urban,0,0,0,0,0,1,0,0,0,0,1,0,1,Normal,No Deficiency
+33,Female,Vegetarian,Urban,0,0,0,1,0,1,0,0,0,1,0,0,0,Normal,Iron
+54,Female,Vegetarian,Rural,0,0,0,0,1,1,0,0,0,0,0,0,0,Normal,Vitamin D
+27,Female,Vegetarian,Urban,0,0,1,0,0,1,0,0,0,1,0,0,0,Normal,No Deficiency
+48,Female,Vegetarian,Urban,0,0,0,0,0,0,0,0,0,0,0,1,0,Dry Skin,Iron
+45,Female,Non-Vegetarian,Urban,0,0,0,0,1,0,0,0,0,0,0,0,1,Rough Skin,Iron
+12,Male,Vegetarian,Rural,0,0,0,1,0,0,0,0,0,0,0,0,0,Normal,No Deficiency
+64,Female,Non-Vegetarian,Rural,0,0,0,0,0,0,0,0,0,0,0,1,0,Normal,No Deficiency
+66,Female,Vegetarian,Urban,0,0,0,0,1,0,0,0,0,0,0,0,0,Normal,No Deficiency
+31,Male,Vegetarian,Rural,0,0,0,1,0,0,0,0,1,0,0,0,0,Rough Skin,Vitamin D
+10,Female,Non-Vegetarian,Rural,0,0,1,0,0,0,0,0,0,1,0,0,1,Dry Skin,Vitamin B12
+12,Female,Vegetarian,Rural,0,0,1,1,1,0,0,0,0,1,0,0,0,Rough Skin,Iron
+38,Male,Non-Vegetarian,Urban,0,0,0,0,0,0,0,0,0,0,0,0,1,Dry Skin,Zinc
+40,Male,Non-Vegetarian,Urban,0,0,0,0,0,0,1,0,0,0,0,1,0,Rough Skin,Iron
+59,Female,Non-Vegetarian,Rural,0,0,0,0,0,0,0,0,0,0,1,0,0,Rough Skin,Iron
+54,Male,Non-Vegetarian,Rural,0,1,0,1,0,1,0,1,0,1,0,0,0,Dry Skin,Vitamin A
+62,Female,Vegetarian,Rural,0,0,1,1,0,0,0,1,0,0,0,1,1,Normal,Vitamin B12
+55,Male,Non-Vegetarian,Rural,0,0,0,0,0,0,0,1,0,0,0,0,1,Normal,Vitamin B12
+22,Female,Vegetarian,Rural,0,0,0,1,0,0,1,0,0,1,1,0,1,Dry Skin,Vitamin B12
+40,Male,Non-Vegetarian,Rural,0,0,0,1,0,0,0,0,0,0,0,0,0,Dry Skin,No Deficiency
+26,Female,Vegetarian,Rural,0,0,0,1,0,1,0,0,1,0,0,0,0,Normal,Vitamin A
+67,Female,Vegetarian,Urban,1,0,0,1,0,0,1,0,0,0,0,0,0,Normal,Vitamin B12
+39,Female,Vegetarian,Rural,0,0,0,0,0,1,0,0,1,0,0,1,0,Normal,Iron
+34,Female,Vegetarian,Urban,1,0,0,1,0,0,1,0,1,0,0,0,0,Dry Skin,Iron
+60,Female,Vegetarian,Urban,0,0,0,0,0,0,0,1,0,0,1,0,0,Normal,Iron
+34,Female,Vegetarian,Urban,0,0,0,0,0,0,0,0,0,0,0,0,0,Pale/Yellow Skin,Iron
+21,Female,Vegetarian,Urban,0,0,0,1,0,0,0,0,0,0,1,0,0,Rough Skin,Vitamin D
+52,Female,Vegetarian,Rural,0,0,0,0,0,0,0,0,0,0,0,0,0,Normal,No Deficiency
+22,Male,Vegetarian,Rural,0,0,1,1,0,0,1,0,0,1,0,1,1,Normal,Vitamin C
+38,Male,Vegetarian,Urban,0,0,0,0,1,1,0,0,1,0,0,1,0,Normal,Iron
+67,Female,Non-Vegetarian,Rural,0,0,0,1,0,1,0,0,1,0,0,0,0,Normal,Vitamin B12
+48,Female,Vegetarian,Urban,0,0,0,1,0,1,0,0,0,0,0,0,0,Normal,Vitamin B12
+19,Female,Vegetarian,Urban,0,0,0,1,0,0,0,0,1,0,0,0,0,Normal,Iron
+53,Male,Non-Vegetarian,Urban,0,0,0,0,0,0,0,0,1,0,0,0,0,Rough Skin,No Deficiency
+66,Male,Non-Vegetarian,Rural,0,0,0,0,0,0,1,0,0,1,0,0,0,Dry Skin,No Deficiency
+68,Female,Non-Vegetarian,Rural,0,0,0,0,0,1,0,0,0,0,1,0,0,Normal,Vitamin A
+19,Female,Non-Vegetarian,Rural,0,1,0,0,1,0,0,0,0,0,0,0,1,Normal,Zinc
+26,Male,Non-Vegetarian,Urban,0,0,0,0,0,0,0,0,0,0,0,0,1,Rough Skin,Vitamin C
+46,Female,Non-Vegetarian,Urban,0,0,1,1,0,1,0,0,0,0,0,0,0,Normal,Vitamin D
+48,Male,Vegetarian,Urban,0,0,0,1,0,1,0,0,0,0,0,0,1,Dry Skin,Iron
+44,Female,Non-Vegetarian,Rural,0,1,0,0,1,0,0,0,0,0,0,0,0,Rough Skin,No Deficiency
+49,Male,Vegetarian,Urban,0,0,0,1,0,0,0,1,0,1,0,1,1,Normal,Vitamin C
+39,Male,Non-Vegetarian,Rural,0,0,0,1,0,0,0,0,0,0,0,0,0,Normal,No Deficiency
+40,Male,Non-Vegetarian,Urban,0,0,0,0,0,1,1,1,0,0,0,0,0,Rough Skin,Iron
+40,Female,Non-Vegetarian,Urban,0,0,0,0,1,0,0,0,0,1,1,0,1,Normal,Vitamin C
+14,Male,Vegetarian,Urban,0,0,0,0,0,0,0,1,0,0,0,0,1,Dry Skin,Vitamin C
+42,Female,Vegetarian,Rural,0,0,0,0,0,0,0,0,0,0,0,0,1,Dry Skin,Vitamin C
+14,Female,Non-Vegetarian,Rural,0,0,1,0,0,0,0,0,0,0,0,0,0,Pale/Yellow Skin,No Deficiency
+59,Male,Non-Vegetarian,Rural,0,0,0,1,0,0,0,0,0,0,0,0,0,Normal,Vitamin B12
+44,Male,Vegetarian,Rural,0,0,0,1,1,1,0,0,1,0,0,0,1,Rough Skin,Vitamin B12
+57,Female,Non-Vegetarian,Urban,0,1,0,0,0,0,0,0,0,0,1,0,0,Normal,Vitamin A
+33,Female,Non-Vegetarian,Rural,0,0,0,0,0,0,0,0,0,0,0,0,1,Dry Skin,Zinc
+21,Male,Non-Vegetarian,Rural,0,0,0,0,0,1,0,0,1,0,0,0,0,Rough Skin,No Deficiency
+11,Female,Non-Vegetarian,Rural,0,1,0,1,0,0,0,0,1,0,0,0,0,Dry Skin,No Deficiency
+24,Female,Non-Vegetarian,Rural,0,0,0,1,1,0,0,1,0,0,1,0,0,Rough Skin,No Deficiency
+32,Female,Non-Vegetarian,Rural,0,0,0,1,0,0,1,1,0,0,0,0,0,Rough Skin,No Deficiency
+31,Female,Vegetarian,Rural,0,0,0,1,0,0,1,1,0,0,1,0,0,Rough Skin,No Deficiency
+57,Female,Non-Vegetarian,Urban,0,1,0,0,0,1,0,1,0,0,0,0,0,Pale/Yellow Skin,No Deficiency
+12,Female,Non-Vegetarian,Rural,0,0,0,0,0,0,0,1,0,0,0,1,0,Normal,Iron
+56,Male,Non-Vegetarian,Urban,0,0,0,0,1,0,0,0,0,0,0,0,0,Rough Skin,No Deficiency
+66,Male,Vegetarian,Rural,0,0,0,0,0,0,0,0,0,0,0,0,0,Normal,Vitamin D
+15,Male,Non-Vegetarian,Urban,0,0,0,0,0,1,0,0,0,0,0,0,0,Normal,Iron
+43,Female,Non-Vegetarian,Urban,0,0,0,0,0,1,1,0,1,0,0,1,0,Dry Skin,Iron
+45,Female,Non-Vegetarian,Urban,0,0,0,1,0,0,0,0,0,1,0,0,1,Normal,Vitamin A
+28,Male,Non-Vegetarian,Rural,0,0,0,1,0,0,0,0,0,0,0,0,0,Normal,Vitamin D
+62,Female,Vegetarian,Urban,0,0,0,0,0,0,0,0,0,1,1,0,0,Rough Skin,Vitamin D
+25,Female,Vegetarian,Rural,0,0,0,1,0,1,0,1,1,0,0,0,0,Dry Skin,Vitamin D
+20,Female,Non-Vegetarian,Urban,0,0,0,0,0,0,0,0,0,0,0,0,0,Dry Skin,Iron
+30,Male,Non-Vegetarian,Urban,0,0,1,0,0,0,0,0,1,1,1,0,1,Normal,Zinc
+34,Female,Vegetarian,Rural,0,0,0,1,0,0,1,0,0,0,1,0,1,Pale/Yellow Skin,Zinc
+56,Male,Vegetarian,Rural,0,0,0,1,1,0,0,0,0,0,0,0,1,Normal,Zinc
+20,Female,Vegetarian,Rural,0,0,0,1,0,0,0,0,0,0,1,0,1,Dry Skin,Vitamin C
+23,Female,Vegetarian,Urban,0,0,0,0,0,1,0,0,0,0,0,0,0,Pale/Yellow Skin,Vitamin B12
+50,Female,Non-Vegetarian,Rural,0,0,0,0,0,0,0,0,0,0,0,1,0,Normal,No Deficiency
+60,Female,Non-Vegetarian,Rural,0,0,0,0,0,0,0,1,0,0,0,0,0,Dry Skin,Vitamin B12
+47,Female,Vegetarian,Rural,0,0,0,1,0,1,0,0,0,1,0,0,1,Normal,Vitamin C
+40,Male,Non-Vegetarian,Rural,0,1,1,0,1,0,0,1,0,0,0,0,0,Normal,Iron
+40,Male,Vegetarian,Rural,0,0,1,0,1,0,0,0,0,1,0,0,1,Dry Skin,Vitamin B12
+19,Male,Non-Vegetarian,Urban,0,0,0,1,0,0,0,0,0,0,0,0,0,Dry Skin,No Deficiency
+55,Male,Vegetarian,Urban,0,0,0,1,0,1,0,0,0,0,0,0,0,Normal,No Deficiency
+60,Female,Non-Vegetarian,Rural,0,0,0,0,0,1,1,0,0,0,1,0,0,Dry Skin,Iron
+59,Male,Non-Vegetarian,Urban,0,0,0,1,0,0,0,0,0,0,0,0,1,Normal,Zinc
+21,Female,Vegetarian,Rural,1,0,0,1,1,0,1,0,1,0,0,0,1,Normal,Vitamin C
+49,Female,Non-Vegetarian,Urban,0,0,0,1,0,0,0,0,0,0,0,0,1,Normal,Zinc
+63,Male,Vegetarian,Rural,1,0,1,0,0,0,0,0,0,0,1,0,0,Rough Skin,Vitamin D
+21,Female,Vegetarian,Rural,0,0,0,0,1,0,0,0,0,1,1,0,0,Dry Skin,Iron
+27,Male,Vegetarian,Rural,0,0,0,0,0,0,0,0,0,0,0,0,0,Normal,Vitamin D
+38,Female,Non-Vegetarian,Urban,0,0,0,1,0,0,1,0,0,1,0,0,0,Normal,Iron
+69,Male,Non-Vegetarian,Urban,0,0,0,0,0,1,0,0,1,0,0,0,1,Normal,Zinc
+24,Male,Vegetarian,Rural,1,0,0,0,0,0,0,1,0,1,0,1,0,Dry Skin,No Deficiency
+19,Female,Vegetarian,Urban,0,0,1,0,1,0,1,1,0,0,0,0,0,Rough Skin,Vitamin D
+69,Male,Vegetarian,Urban,0,0,1,0,0,1,0,0,0,0,0,0,0,Normal,No Deficiency
+14,Male,Non-Vegetarian,Rural,0,0,1,1,1,0,0,0,0,0,0,0,0,Dry Skin,No Deficiency
+69,Male,Non-Vegetarian,Urban,0,0,0,1,1,0,0,0,0,1,0,0,0,Normal,No Deficiency
+56,Female,Non-Vegetarian,Rural,0,0,0,0,0,0,0,0,0,0,0,0,1,Rough Skin,No Deficiency
+12,Male,Non-Vegetarian,Urban,0,0,1,0,0,0,0,0,0,0,0,0,0,Normal,Vitamin D
+47,Female,Non-Vegetarian,Rural,0,1,0,0,0,1,0,0,0,1,0,0,0,Normal,No Deficiency
+63,Female,Vegetarian,Urban,0,1,0,0,0,0,0,0,0,0,0,0,0,Normal,No Deficiency
+38,Female,Vegetarian,Urban,0,0,0,0,0,0,0,0,0,1,0,0,0,Dry Skin,No Deficiency
+69,Female,Vegetarian,Rural,0,0,0,0,0,1,0,0,0,0,0,0,1,Normal,Vitamin C
+64,Female,Non-Vegetarian,Rural,0,0,0,0,0,1,0,0,0,0,0,0,1,Normal,No Deficiency
+62,Female,Vegetarian,Rural,0,0,0,0,0,0,0,0,0,0,0,0,0,Normal,No Deficiency
+69,Female,Vegetarian,Urban,0,1,0,0,0,0,0,0,0,0,0,0,0,Normal,No Deficiency
+67,Male,Vegetarian,Rural,0,0,0,0,0,1,0,1,0,0,0,0,0,Normal,Vitamin A
+20,Male,Non-Vegetarian,Rural,1,1,0,0,0,0,1,0,0,0,0,0,0,Pale/Yellow Skin,Vitamin D
+29,Female,Vegetarian,Urban,0,0,0,1,0,0,0,1,0,0,0,0,0,Normal,Iron
+23,Female,Vegetarian,Urban,0,0,0,1,0,1,0,0,0,0,0,0,0,Dry Skin,No Deficiency
+44,Female,Vegetarian,Urban,0,0,0,0,0,0,0,0,0,0,0,1,1,Pale/Yellow Skin,Vitamin A
+20,Male,Non-Vegetarian,Rural,0,1,0,1,0,1,0,1,0,0,0,0,1,Normal,No Deficiency
+40,Female,Vegetarian,Rural,0,0,0,0,0,1,0,0,1,0,1,0,0,Normal,No Deficiency
+11,Male,Non-Vegetarian,Rural,0,0,0,0,0,1,1,1,0,0,0,0,0,Rough Skin,Vitamin B12
+35,Female,Non-Vegetarian,Rural,0,0,0,1,1,1,0,0,0,0,0,0,1,Rough Skin,Vitamin C
+12,Male,Non-Vegetarian,Urban,1,0,0,0,0,1,0,0,0,0,0,0,0,Rough Skin,No Deficiency
+40,Male,Non-Vegetarian,Urban,0,0,0,1,0,1,0,0,0,0,0,1,1,Normal,Vitamin C
+52,Female,Non-Vegetarian,Rural,0,0,0,0,0,0,0,1,0,1,0,0,1,Rough Skin,Zinc
+10,Male,Non-Vegetarian,Urban,0,0,0,1,0,1,0,0,0,1,0,0,1,Normal,Zinc
+66,Male,Non-Vegetarian,Rural,0,0,0,0,0,0,0,1,0,0,0,0,0,Normal,Vitamin A
+66,Female,Vegetarian,Urban,0,0,0,1,0,1,0,0,0,0,0,0,1,Dry Skin,Zinc
+40,Male,Vegetarian,Urban,0,0,0,0,1,0,0,0,0,0,0,0,0,Normal,Vitamin A
+41,Female,Vegetarian,Rural,1,0,0,1,0,1,0,0,0,0,0,1,0,Normal,Iron
+50,Female,Non-Vegetarian,Rural,0,0,1,1,1,0,0,0,0,1,0,0,0,Dry Skin,No Deficiency
+24,Male,Non-Vegetarian,Rural,0,0,0,1,1,0,0,0,1,0,0,0,0,Rough Skin,Vitamin D
+42,Female,Vegetarian,Rural,0,0,0,0,0,0,0,0,0,0,0,0,0,Normal,Iron
+40,Female,Vegetarian,Rural,0,0,0,0,0,0,0,1,0,1,1,0,1,Dry Skin,Iron
+23,Male,Vegetarian,Rural,0,1,0,1,0,0,1,0,0,1,0,0,1,Normal,Iron
+37,Male,Non-Vegetarian,Rural,0,0,0,0,1,0,1,0,0,1,0,0,0,Normal,No Deficiency
+44,Male,Vegetarian,Urban,0,0,0,1,0,0,0,0,0,0,0,0,0,Normal,Vitamin A
+39,Male,Vegetarian,Rural,0,0,0,0,1,0,0,0,0,0,0,0,1,Dry Skin,Zinc
+59,Female,Vegetarian,Rural,0,0,0,0,0,0,1,1,0,0,0,0,1,Normal,Zinc
+52,Male,Non-Vegetarian,Rural,0,0,0,1,0,1,0,0,0,0,0,0,1,Normal,Vitamin B12
+69,Female,Vegetarian,Urban,0,0,0,1,0,0,0,0,1,0,1,0,0,Normal,Iron
+66,Female,Vegetarian,Rural,0,0,1,1,0,0,1,1,0,0,0,0,1,Normal,Zinc
+62,Male,Non-Vegetarian,Rural,1,0,0,1,0,0,0,0,0,1,0,1,0,Pale/Yellow Skin,No Deficiency
+36,Male,Non-Vegetarian,Urban,0,0,0,0,0,1,0,1,0,0,1,0,0,Rough Skin,Vitamin B12
+17,Female,Vegetarian,Rural,0,0,0,0,0,1,0,0,0,0,0,0,0,Normal,Vitamin A
+21,Female,Non-Vegetarian,Rural,1,0,0,1,0,0,0,0,0,0,0,0,0,Normal,No Deficiency
+56,Male,Non-Vegetarian,Urban,0,0,0,0,0,1,1,0,0,0,0,0,0,Normal,No Deficiency
+13,Female,Vegetarian,Rural,0,1,0,1,0,0,0,0,0,0,0,0,1,Normal,Vitamin C
+38,Male,Non-Vegetarian,Urban,1,1,0,0,0,0,0,0,0,0,0,0,0,Normal,No Deficiency
+10,Female,Non-Vegetarian,Urban,0,0,0,1,0,0,1,0,0,1,1,0,0,Dry Skin,Vitamin D
+56,Male,Non-Vegetarian,Urban,0,0,0,1,0,1,0,0,0,0,0,0,1,Rough Skin,Vitamin C
+32,Female,Vegetarian,Rural,0,0,0,1,0,0,0,1,0,0,0,0,0,Normal,No Deficiency
+33,Female,Vegetarian,Rural,0,0,0,1,0,0,0,0,0,0,1,0,0,Normal,Iron
+59,Male,Non-Vegetarian,Urban,0,0,0,1,0,0,0,0,0,1,0,0,0,Normal,Iron
+65,Female,Vegetarian,Urban,0,0,0,0,0,0,0,0,1,0,0,0,0,Pale/Yellow Skin,Vitamin B12
+24,Male,Vegetarian,Urban,0,0,0,1,0,1,1,0,0,0,0,0,1,Normal,Vitamin C
+40,Female,Non-Vegetarian,Urban,0,1,1,0,0,0,1,1,1,0,0,0,1,Normal,Iron
+46,Female,Non-Vegetarian,Urban,0,0,0,0,0,0,0,0,1,0,0,0,0,Normal,Iron
+45,Female,Non-Vegetarian,Rural,0,0,0,1,0,0,1,1,0,0,0,0,0,Normal,Vitamin D
+29,Male,Vegetarian,Urban,0,0,0,1,0,0,0,0,0,0,0,1,1,Normal,Vitamin C
+40,Female,Vegetarian,Rural,0,0,0,0,0,1,1,0,0,0,0,0,0,Dry Skin,No Deficiency
+53,Female,Vegetarian,Rural,0,0,1,1,0,0,0,0,1,0,0,0,0,Normal,Vitamin B12
+58,Male,Non-Vegetarian,Rural,0,0,0,0,1,0,0,0,0,0,0,0,0,Normal,Vitamin D
+68,Male,Vegetarian,Rural,0,0,0,0,0,0,0,0,0,0,0,0,0,Normal,No Deficiency
+25,Female,Vegetarian,Rural,0,0,1,0,0,1,1,0,0,0,0,0,0,Rough Skin,No Deficiency
+53,Female,Vegetarian,Urban,0,0,0,1,0,0,0,0,0,0,0,0,0,Dry Skin,No Deficiency
+30,Female,Vegetarian,Urban,0,0,0,1,0,0,0,0,0,0,0,0,0,Normal,Vitamin D
+67,Male,Vegetarian,Rural,0,0,0,1,0,0,0,0,0,0,0,0,0,Normal,Vitamin D
+47,Female,Non-Vegetarian,Urban,1,0,0,0,0,0,0,1,0,0,0,1,1,Normal,Zinc
+50,Female,Non-Vegetarian,Rural,0,1,0,0,0,0,0,0,0,0,0,0,1,Normal,Iron
+18,Female,Non-Vegetarian,Rural,1,0,0,1,0,1,0,1,0,0,0,0,1,Rough Skin,Vitamin C
+28,Female,Vegetarian,Urban,0,0,0,0,0,0,0,1,0,0,1,0,0,Normal,Vitamin A
+18,Female,Vegetarian,Rural,0,1,0,0,0,0,0,0,0,0,0,0,0,Normal,Vitamin D
+30,Male,Vegetarian,Rural,0,1,0,1,0,1,1,0,0,0,1,1,0,Rough Skin,Vitamin A
+45,Male,Vegetarian,Rural,0,0,0,0,0,0,0,0,0,0,0,0,0,Normal,Vitamin D
+28,Male,Non-Vegetarian,Rural,0,1,0,0,0,1,0,0,0,0,1,0,0,Normal,Vitamin D
+18,Female,Non-Vegetarian,Rural,0,0,0,1,0,1,1,0,0,0,1,0,0,Normal,No Deficiency
+25,Male,Non-Vegetarian,Urban,0,1,0,1,0,0,0,0,0,1,0,0,1,Pale/Yellow Skin,Vitamin C
+49,Female,Non-Vegetarian,Rural,0,0,0,0,0,0,0,0,0,0,0,0,1,Normal,Zinc
+13,Male,Vegetarian,Urban,0,0,1,0,0,0,0,0,0,1,0,0,1,Normal,Zinc
+58,Female,Non-Vegetarian,Urban,0,0,0,0,0,0,0,1,1,1,0,0,0,Rough Skin,No Deficiency
+42,Male,Non-Vegetarian,Rural,0,1,0,1,1,0,0,0,0,1,0,0,0,Normal,Iron
+15,Female,Vegetarian,Urban,0,0,0,0,0,0,1,0,0,1,0,0,0,Dry Skin,Vitamin D
+32,Female,Vegetarian,Rural,0,0,0,1,0,0,1,1,0,0,0,0,1,Normal,Zinc
+62,Female,Vegetarian,Rural,1,0,0,1,0,1,0,0,0,0,0,0,0,Normal,Vitamin B12
+12,Female,Vegetarian,Urban,0,0,0,0,0,0,0,0,0,0,0,0,1,Normal,Vitamin C
+56,Female,Non-Vegetarian,Urban,0,0,0,1,0,1,0,0,0,0,0,0,0,Dry Skin,Vitamin D
+11,Female,Non-Vegetarian,Urban,0,0,0,1,0,1,0,0,0,0,0,0,0,Dry Skin,Vitamin B12
+30,Female,Vegetarian,Rural,0,0,1,1,0,1,0,0,0,0,0,0,0,Normal,Iron
+38,Female,Non-Vegetarian,Rural,0,0,0,1,0,0,0,1,0,0,0,0,1,Dry Skin,Iron
+57,Female,Vegetarian,Rural,0,1,0,1,1,0,1,0,0,0,0,0,1,Dry Skin,Zinc
+22,Female,Vegetarian,Rural,0,0,0,1,0,0,0,0,0,0,0,0,0,Normal,No Deficiency
+58,Male,Vegetarian,Rural,0,0,0,0,1,1,0,0,0,0,0,1,0,Normal,Vitamin A
+14,Male,Vegetarian,Rural,0,0,0,0,0,0,1,0,0,0,0,0,0,Normal,No Deficiency
+39,Female,Non-Vegetarian,Rural,0,1,0,0,0,1,0,0,0,0,0,0,0,Normal,No Deficiency
+62,Male,Vegetarian,Rural,0,1,0,1,0,0,0,0,0,1,1,0,0,Dry Skin,Vitamin A
+23,Male,Vegetarian,Urban,0,0,1,0,0,1,0,0,0,0,0,0,0,Rough Skin,No Deficiency
+66,Female,Vegetarian,Rural,0,1,0,0,0,0,0,0,0,0,0,0,1,Normal,Vitamin D
+49,Female,Vegetarian,Urban,0,0,0,0,0,0,0,0,0,0,0,1,0,Normal,Iron
+28,Female,Vegetarian,Urban,0,0,0,0,1,0,0,1,0,0,0,1,0,Normal,No Deficiency
+52,Male,Vegetarian,Urban,0,0,0,0,0,0,0,0,0,0,0,0,1,Normal,Vitamin C
+34,Male,Non-Vegetarian,Rural,0,0,1,0,0,1,0,0,0,0,0,1,0,Normal,Iron
+34,Male,Non-Vegetarian,Rural,0,0,0,1,0,0,1,1,0,0,0,0,0,Normal,Vitamin D
+38,Male,Vegetarian,Urban,0,0,1,0,0,1,0,1,0,0,0,0,1,Normal,Zinc
+25,Male,Vegetarian,Rural,0,0,0,0,0,0,0,0,0,0,0,0,0,Normal,No Deficiency
+62,Female,Non-Vegetarian,Urban,0,0,0,0,0,0,0,0,0,0,0,0,1,Normal,Zinc
+57,Male,Non-Vegetarian,Urban,0,0,0,1,0,1,0,0,0,0,0,0,0,Dry Skin,Iron
+20,Female,Vegetarian,Rural,1,0,0,1,0,0,0,0,0,0,0,0,0,Normal,No Deficiency
+68,Female,Vegetarian,Urban,0,0,0,1,0,1,1,1,0,0,1,1,1,Dry Skin,Vitamin C
+27,Female,Vegetarian,Urban,1,0,0,0,1,0,0,0,0,0,0,0,0,Dry Skin,Vitamin A
+24,Female,Non-Vegetarian,Rural,0,0,0,1,0,0,0,0,0,1,0,0,0,Normal,Vitamin D
+24,Female,Non-Vegetarian,Rural,0,0,1,0,0,1,1,0,1,0,0,0,0,Normal,Iron
+27,Female,Vegetarian,Urban,0,0,0,1,0,0,0,0,0,1,0,0,0,Normal,Vitamin A
+26,Male,Non-Vegetarian,Rural,0,1,0,0,0,0,0,0,0,0,0,0,0,Normal,No Deficiency
+53,Male,Vegetarian,Rural,0,0,1,1,1,1,0,0,0,0,0,0,0,Rough Skin,Iron
+15,Female,Non-Vegetarian,Urban,0,0,1,0,0,0,0,0,0,0,0,0,1,Rough Skin,Vitamin C
+17,Female,Vegetarian,Urban,0,1,0,0,0,0,0,0,0,1,1,1,0,Normal,Iron
+54,Female,Non-Vegetarian,Urban,0,0,0,1,0,1,0,0,0,0,0,0,1,Normal,Vitamin C
+47,Male,Non-Vegetarian,Urban,0,1,0,0,0,1,1,1,0,1,0,0,0,Normal,No Deficiency
+58,Male,Vegetarian,Rural,1,0,0,1,0,0,1,0,1,1,0,0,1,Normal,No Deficiency
+36,Female,Vegetarian,Urban,0,0,0,1,0,1,0,1,0,0,0,0,1,Dry Skin,Zinc
+35,Male,Vegetarian,Rural,0,0,0,0,0,0,1,0,1,0,0,0,0,Normal,No Deficiency
+43,Female,Vegetarian,Urban,0,1,0,1,0,1,0,0,0,0,0,0,1,Normal,Zinc
+26,Male,Vegetarian,Urban,0,0,0,0,0,0,0,0,0,0,0,0,1,Normal,Zinc
+38,Male,Vegetarian,Urban,0,0,0,0,0,0,0,0,0,0,0,0,0,Normal,Vitamin D
+60,Male,Non-Vegetarian,Urban,0,0,0,1,1,0,0,0,0,0,0,0,0,Dry Skin,Vitamin D
+26,Female,Vegetarian,Rural,0,1,0,1,1,0,0,0,0,1,0,0,0,Normal,No Deficiency
+35,Female,Vegetarian,Rural,0,0,0,1,0,0,0,0,0,0,0,0,0,Normal,Iron
+61,Male,Non-Vegetarian,Urban,1,0,0,0,0,1,0,0,0,0,1,0,0,Normal,Vitamin D
+54,Male,Non-Vegetarian,Rural,0,0,0,0,0,0,0,0,0,0,0,1,1,Normal,Zinc
+62,Female,Non-Vegetarian,Rural,0,0,0,0,0,0,0,0,0,0,0,0,1,Pale/Yellow Skin,Vitamin C
+15,Female,Non-Vegetarian,Urban,0,0,1,0,0,0,1,0,0,0,0,0,0,Rough Skin,Vitamin B12
+44,Male,Non-Vegetarian,Rural,0,0,0,0,0,1,0,0,1,0,0,0,0,Dry Skin,No Deficiency
+60,Male,Vegetarian,Rural,0,0,0,0,0,0,0,0,0,0,0,0,0,Normal,Vitamin B12
+35,Male,Vegetarian,Rural,0,0,0,0,0,0,1,1,0,0,0,0,1,Normal,Vitamin C
+26,Male,Vegetarian,Urban,0,1,0,1,0,0,0,0,0,1,0,1,1,Normal,Vitamin B12
+67,Female,Non-Vegetarian,Urban,0,0,1,0,1,0,1,0,0,0,0,1,1,Normal,Iron
+67,Female,Vegetarian,Rural,0,0,1,0,0,0,0,0,0,0,0,0,0,Rough Skin,Vitamin D
+24,Male,Non-Vegetarian,Rural,0,1,0,1,0,0,1,0,0,0,0,1,0,Normal,Iron
+65,Male,Vegetarian,Rural,0,0,0,0,0,1,1,1,0,0,0,0,0,Pale/Yellow Skin,Iron
+52,Male,Non-Vegetarian,Rural,0,0,0,1,0,0,0,0,0,0,0,0,0,Normal,No Deficiency
+39,Male,Vegetarian,Urban,0,0,0,1,0,0,0,0,0,0,0,0,0,Normal,No Deficiency
+26,Male,Vegetarian,Rural,0,0,0,0,1,0,0,0,1,0,0,0,0,Dry Skin,Iron
+65,Female,Vegetarian,Rural,1,0,1,0,0,0,0,0,0,0,1,0,0,Pale/Yellow Skin,Vitamin B12
+49,Male,Non-Vegetarian,Urban,1,0,0,1,0,0,0,1,0,1,0,0,0,Rough Skin,No Deficiency
+48,Male,Vegetarian,Urban,0,0,0,0,0,0,0,0,0,0,1,0,1,Normal,Vitamin C
+50,Female,Non-Vegetarian,Rural,0,1,0,0,0,1,0,0,0,0,0,0,0,Dry Skin,Vitamin A
+56,Male,Non-Vegetarian,Rural,0,0,0,1,0,0,0,0,1,0,0,0,0,Dry Skin,Iron
+37,Male,Non-Vegetarian,Rural,0,0,0,1,0,0,0,0,0,1,0,0,1,Normal,Iron
+58,Male,Non-Vegetarian,Urban,0,0,0,1,1,0,0,0,0,0,0,0,1,Normal,Zinc
+32,Female,Vegetarian,Rural,0,0,0,1,0,1,0,0,0,0,0,0,1,Normal,Iron
+33,Female,Non-Vegetarian,Rural,0,0,0,0,0,1,0,0,1,1,0,0,0,Normal,Iron
+13,Male,Non-Vegetarian,Urban,0,0,0,0,0,1,0,1,0,0,0,0,1,Rough Skin,Zinc
+66,Male,Non-Vegetarian,Rural,0,0,0,1,0,0,0,0,0,0,0,0,0,Rough Skin,Iron
+26,Female,Non-Vegetarian,Rural,0,1,1,1,0,0,0,0,1,0,0,1,0,Pale/Yellow Skin,Vitamin A
+18,Female,Vegetarian,Rural,1,0,0,1,1,1,1,1,0,0,0,0,1,Normal,Vitamin D
+66,Male,Vegetarian,Urban,0,0,0,1,0,0,0,0,0,0,0,0,0,Normal,Vitamin D
+46,Female,Non-Vegetarian,Rural,0,0,0,0,0,0,1,0,0,0,1,0,0,Normal,No Deficiency
+13,Male,Non-Vegetarian,Urban,1,0,0,1,0,0,0,0,0,0,0,0,0,Normal,Vitamin B12
+23,Female,Non-Vegetarian,Rural,0,0,0,0,0,0,0,1,0,0,0,0,0,Normal,Vitamin B12
+10,Male,Non-Vegetarian,Rural,0,0,0,0,0,1,0,1,0,0,0,1,0,Normal,Iron
+27,Male,Vegetarian,Urban,0,0,0,0,0,1,0,0,0,0,0,0,1,Normal,Vitamin C
+12,Male,Vegetarian,Rural,0,0,0,1,0,0,1,0,0,0,1,1,1,Normal,Vitamin C
+29,Male,Non-Vegetarian,Urban,0,0,0,0,0,1,1,0,0,0,0,0,0,Rough Skin,Iron
+39,Male,Non-Vegetarian,Rural,0,0,0,0,0,1,0,0,0,1,1,1,0,Dry Skin,Iron
+42,Female,Vegetarian,Urban,0,1,0,1,1,1,0,0,0,0,0,0,1,Rough Skin,Vitamin B12
+16,Male,Vegetarian,Urban,0,0,0,0,0,0,0,0,0,0,1,1,0,Normal,No Deficiency
+46,Female,Vegetarian,Rural,0,0,0,0,0,0,0,0,0,0,1,0,1,Normal,Vitamin C
+64,Female,Non-Vegetarian,Urban,0,0,1,0,0,0,0,0,0,1,0,0,0,Normal,Iron
+54,Female,Vegetarian,Rural,0,0,0,0,0,1,1,1,0,0,0,0,0,Normal,Vitamin A
+34,Male,Vegetarian,Urban,0,0,0,0,0,0,1,0,0,0,0,0,0,Normal,Iron
+33,Female,Non-Vegetarian,Rural,0,0,0,0,1,0,0,0,0,0,0,0,0,Pale/Yellow Skin,No Deficiency
+59,Male,Vegetarian,Rural,0,0,0,0,0,0,0,0,0,1,1,0,1,Normal,Vitamin B12
+48,Male,Non-Vegetarian,Urban,0,1,0,1,0,0,0,0,0,0,0,0,0,Normal,No Deficiency
+35,Female,Vegetarian,Urban,0,0,0,1,0,1,0,0,0,0,0,0,0,Dry Skin,No Deficiency
+65,Female,Vegetarian,Rural,0,0,1,0,0,1,0,1,0,0,0,0,0,Normal,No Deficiency
+57,Male,Non-Vegetarian,Rural,0,0,0,0,0,0,0,0,0,1,0,0,0,Normal,Vitamin B12
+44,Male,Vegetarian,Urban,0,0,0,0,1,0,0,1,0,0,0,0,0,Normal,Vitamin D
+51,Male,Non-Vegetarian,Rural,0,0,0,0,0,0,0,0,0,0,1,0,0,Normal,Vitamin D
+37,Male,Non-Vegetarian,Urban,0,1,0,0,0,0,1,0,0,0,0,0,0,Normal,Iron
+14,Female,Non-Vegetarian,Urban,0,0,0,1,1,0,0,1,0,1,1,0,0,Normal,Iron
+34,Male,Vegetarian,Urban,0,1,0,1,1,0,0,0,0,0,0,0,0,Normal,Iron
+43,Female,Vegetarian,Urban,0,0,1,1,0,1,0,1,1,0,0,0,0,Rough Skin,No Deficiency
+69,Male,Non-Vegetarian,Rural,0,0,0,0,0,1,1,0,0,0,1,0,0,Normal,No Deficiency
+69,Male,Non-Vegetarian,Urban,1,0,1,0,0,0,0,0,0,0,0,0,0,Dry Skin,Iron
+46,Female,Non-Vegetarian,Urban,0,0,0,0,1,0,0,0,0,0,1,0,0,Normal,No Deficiency
+52,Female,Vegetarian,Rural,0,0,0,0,1,0,0,1,0,1,0,0,0,Dry Skin,No Deficiency
+26,Female,Non-Vegetarian,Urban,0,0,1,0,0,0,0,0,0,0,0,0,0,Rough Skin,Vitamin B12
+34,Female,Vegetarian,Urban,0,0,0,1,0,0,0,1,0,0,0,0,0,Pale/Yellow Skin,Vitamin B12
+19,Male,Non-Vegetarian,Urban,1,1,0,0,0,0,0,0,0,0,0,0,1,Normal,Vitamin C
+41,Female,Vegetarian,Rural,0,0,0,0,0,1,0,0,0,0,0,0,0,Normal,Iron
+33,Female,Vegetarian,Rural,0,0,1,1,0,1,0,0,0,0,0,0,0,Normal,No Deficiency
+67,Female,Vegetarian,Urban,0,0,0,0,0,0,0,0,0,0,0,0,0,Normal,Iron
+38,Female,Vegetarian,Rural,0,0,0,1,0,0,0,1,0,1,0,0,0,Dry Skin,No Deficiency
+26,Female,Non-Vegetarian,Urban,0,1,0,0,0,0,0,0,0,0,1,0,0,Normal,Vitamin D
+69,Male,Vegetarian,Urban,0,0,0,0,0,0,0,0,0,0,0,0,0,Normal,Iron
+19,Female,Non-Vegetarian,Rural,0,0,1,0,0,0,0,0,0,0,0,0,0,Normal,Vitamin B12
+12,Female,Non-Vegetarian,Rural,0,0,0,1,0,0,0,0,0,0,0,0,0,Normal,Vitamin A
+60,Male,Vegetarian,Rural,0,0,0,1,1,0,0,0,0,0,0,1,0,Normal,No Deficiency
+59,Female,Vegetarian,Rural,0,0,0,1,0,0,1,0,0,1,0,0,0,Normal,Vitamin A
+49,Male,Vegetarian,Rural,0,1,0,0,0,0,0,0,0,0,0,0,1,Normal,Iron
+40,Male,Vegetarian,Rural,0,0,0,0,0,0,0,1,1,0,0,0,0,Normal,Vitamin B12
+57,Male,Non-Vegetarian,Urban,0,0,0,0,0,0,0,0,1,0,0,0,0,Normal,No Deficiency
+48,Female,Vegetarian,Rural,0,0,0,1,0,0,0,1,0,1,0,0,1,Normal,Vitamin C
+11,Male,Vegetarian,Rural,0,0,0,0,0,0,0,0,0,1,0,0,0,Dry Skin,No Deficiency
+16,Female,Non-Vegetarian,Rural,0,0,0,1,1,0,0,0,0,0,0,0,0,Normal,Vitamin A
+68,Male,Vegetarian,Rural,0,0,0,0,1,0,0,0,1,0,0,0,1,Dry Skin,Vitamin B12
+60,Female,Vegetarian,Rural,1,0,0,1,0,1,0,1,0,0,0,0,0,Dry Skin,Vitamin B12
+13,Female,Vegetarian,Urban,0,0,0,0,0,1,1,0,0,0,1,0,0,Normal,Iron
+48,Female,Non-Vegetarian,Rural,0,0,1,0,0,1,0,0,0,1,1,0,0,Normal,No Deficiency
+67,Male,Vegetarian,Rural,0,0,1,1,0,1,0,1,0,1,0,0,0,Dry Skin,No Deficiency
+50,Male,Non-Vegetarian,Urban,0,0,0,1,1,1,0,0,0,0,0,0,0,Rough Skin,Vitamin D
+39,Male,Vegetarian,Urban,0,0,0,0,0,0,1,0,0,0,0,0,0,Normal,No Deficiency
+50,Male,Vegetarian,Urban,0,0,0,0,0,0,0,0,0,1,0,0,1,Pale/Yellow Skin,Iron
+67,Female,Non-Vegetarian,Urban,0,0,0,1,0,1,0,0,0,1,1,0,0,Normal,Iron
+25,Female,Vegetarian,Rural,0,0,0,0,0,0,0,0,0,1,0,0,0,Dry Skin,Iron
+62,Female,Vegetarian,Urban,0,0,0,0,0,1,0,0,1,0,0,0,0,Normal,Vitamin A
+52,Male,Vegetarian,Urban,0,0,0,0,1,1,0,1,0,0,0,1,0,Normal,No Deficiency
+40,Female,Vegetarian,Urban,0,0,0,0,0,0,0,0,0,0,0,0,1,Normal,Vitamin C
+60,Female,Non-Vegetarian,Rural,0,1,0,1,0,1,0,0,0,1,0,0,0,Normal,Iron
+49,Male,Vegetarian,Urban,0,0,0,1,1,1,0,0,0,0,0,1,0,Normal,Vitamin B12
+24,Female,Non-Vegetarian,Rural,0,0,0,1,0,0,0,0,0,0,0,0,0,Normal,Vitamin B12
+59,Male,Vegetarian,Urban,1,0,0,1,1,0,0,0,0,0,0,0,0,Normal,No Deficiency
+38,Female,Vegetarian,Rural,0,0,0,0,0,0,0,0,0,0,0,0,0,Normal,Vitamin A
+35,Female,Non-Vegetarian,Rural,0,0,0,0,0,1,0,0,0,0,0,0,0,Normal,Vitamin B12
+31,Female,Vegetarian,Rural,0,0,0,1,0,0,0,0,0,0,0,0,0,Normal,Iron
+62,Male,Non-Vegetarian,Urban,0,0,0,1,0,0,0,0,0,0,0,0,0,Normal,No Deficiency
+38,Female,Vegetarian,Rural,0,0,0,0,0,0,0,0,0,0,0,0,1,Normal,Zinc
+33,Male,Non-Vegetarian,Rural,0,0,1,1,0,0,0,0,0,0,0,1,0,Normal,No Deficiency
+63,Male,Vegetarian,Rural,0,0,0,1,0,1,1,1,0,0,0,0,0,Dry Skin,Iron
+16,Male,Vegetarian,Rural,0,1,1,0,0,0,0,0,0,0,0,0,1,Rough Skin,Zinc
+54,Female,Non-Vegetarian,Urban,0,0,0,1,0,1,1,0,0,0,0,0,0,Normal,Iron
+36,Male,Non-Vegetarian,Rural,0,0,0,0,0,0,0,0,0,0,0,0,0,Normal,Vitamin D
+50,Male,Non-Vegetarian,Urban,1,0,0,0,0,0,0,0,0,0,1,0,0,Dry Skin,Vitamin B12
+34,Male,Vegetarian,Urban,0,0,0,0,0,0,0,0,0,0,0,0,1,Rough Skin,Vitamin C
+37,Female,Non-Vegetarian,Urban,1,0,1,0,1,0,0,0,0,0,1,1,1,Normal,Vitamin D
+66,Male,Non-Vegetarian,Rural,0,0,0,0,0,1,0,0,1,0,0,0,1,Dry Skin,Zinc
+19,Male,Non-Vegetarian,Urban,0,1,0,0,0,0,0,0,0,0,0,0,1,Normal,No Deficiency
+55,Male,Non-Vegetarian,Urban,0,0,0,0,1,0,0,0,0,0,0,0,0,Dry Skin,Vitamin A
+18,Female,Non-Vegetarian,Urban,0,0,0,0,0,1,0,0,0,0,1,0,0,Normal,No Deficiency
+57,Male,Vegetarian,Rural,0,0,0,0,0,0,1,0,0,0,1,0,1,Normal,Iron
+19,Male,Vegetarian,Urban,0,0,1,0,0,0,0,0,0,0,1,0,1,Rough Skin,Zinc
+69,Male,Non-Vegetarian,Rural,0,0,0,1,1,0,0,0,0,0,0,0,0,Normal,Iron
+12,Female,Non-Vegetarian,Urban,0,1,0,0,0,1,1,0,0,0,0,0,0,Normal,Iron
+10,Female,Vegetarian,Urban,0,0,0,0,0,0,0,0,0,0,0,0,0,Normal,No Deficiency
+31,Female,Vegetarian,Rural,0,1,0,1,0,0,0,0,1,1,0,0,0,Normal,No Deficiency
+12,Female,Vegetarian,Urban,0,0,0,0,0,1,0,0,0,0,0,0,0,Normal,Vitamin D
+48,Male,Non-Vegetarian,Urban,0,0,1,0,0,1,0,0,1,0,0,0,0,Normal,Vitamin A
+59,Male,Non-Vegetarian,Urban,0,1,0,1,1,1,0,0,0,0,1,0,0,Normal,No Deficiency
+18,Male,Vegetarian,Urban,0,0,0,1,0,0,0,0,0,0,0,0,0,Normal,Iron
+19,Female,Non-Vegetarian,Rural,0,0,0,1,0,1,0,0,0,0,1,0,0,Normal,Vitamin D
+17,Male,Vegetarian,Urban,0,0,1,1,0,0,0,0,0,0,0,0,0,Rough Skin,Vitamin A
+66,Male,Non-Vegetarian,Urban,0,0,0,0,0,0,0,0,0,1,0,0,0,Normal,No Deficiency
+60,Female,Vegetarian,Rural,0,0,0,0,0,1,0,0,0,1,1,0,1,Pale/Yellow Skin,No Deficiency
+59,Male,Vegetarian,Urban,0,0,1,1,0,0,0,0,0,0,0,0,0,Normal,No Deficiency
+50,Female,Non-Vegetarian,Urban,0,0,1,0,0,1,0,0,0,1,0,0,1,Rough Skin,Zinc
+30,Female,Vegetarian,Rural,0,1,0,1,0,0,0,1,0,0,0,0,0,Normal,Iron
+56,Male,Non-Vegetarian,Rural,0,0,0,0,1,0,0,1,0,0,1,0,0,Normal,Vitamin B12
+65,Female,Non-Vegetarian,Rural,0,0,0,1,0,0,0,0,0,1,0,0,0,Normal,Vitamin B12
+30,Male,Vegetarian,Rural,0,0,1,0,0,1,0,0,0,0,0,0,0,Pale/Yellow Skin,Vitamin A
+54,Male,Vegetarian,Urban,0,0,1,0,0,0,0,0,0,0,0,1,0,Normal,Vitamin D
+17,Female,Non-Vegetarian,Rural,0,0,0,1,0,0,0,0,1,0,0,0,1,Normal,Zinc
+24,Female,Vegetarian,Rural,0,0,0,1,0,0,0,0,0,0,0,1,1,Normal,No Deficiency
+39,Male,Non-Vegetarian,Rural,0,0,0,0,0,0,1,0,0,0,0,0,0,Normal,No Deficiency
+18,Female,Vegetarian,Urban,0,0,0,1,0,1,0,0,0,0,0,0,0,Dry Skin,Vitamin D
+51,Male,Vegetarian,Urban,0,0,0,1,0,0,0,1,1,0,0,0,0,Normal,No Deficiency
+45,Male,Vegetarian,Urban,0,0,0,0,0,0,0,0,0,0,0,0,0,Normal,Vitamin B12
+33,Male,Vegetarian,Urban,0,0,0,1,0,0,1,0,0,0,0,0,1,Normal,Vitamin C
+19,Female,Vegetarian,Rural,0,1,0,0,0,1,0,0,0,0,0,0,0,Rough Skin,No Deficiency
+67,Female,Non-Vegetarian,Urban,0,0,0,1,1,1,0,1,1,1,0,0,1,Rough Skin,No Deficiency
+65,Female,Non-Vegetarian,Urban,0,0,0,1,0,1,1,1,0,1,0,1,0,Normal,No Deficiency
+48,Male,Non-Vegetarian,Rural,1,0,1,0,0,0,0,0,0,0,0,0,0,Normal,No Deficiency
+29,Female,Vegetarian,Rural,0,0,0,0,0,1,1,0,0,0,0,0,1,Normal,Iron
+68,Female,Vegetarian,Urban,0,0,0,1,0,0,0,0,0,0,0,0,1,Rough Skin,Zinc
+46,Male,Non-Vegetarian,Urban,0,0,0,1,1,1,0,0,0,0,0,0,1,Rough Skin,Vitamin C
+50,Female,Vegetarian,Rural,0,0,0,1,0,0,0,0,0,0,0,0,0,Rough Skin,No Deficiency
+41,Female,Vegetarian,Rural,1,0,0,1,1,0,0,0,0,0,0,1,0,Normal,Iron
+56,Male,Non-Vegetarian,Urban,0,0,0,1,1,0,0,1,0,0,1,0,1,Normal,No Deficiency
+61,Female,Non-Vegetarian,Urban,0,0,1,0,0,0,0,0,0,1,0,0,0,Normal,No Deficiency
+56,Female,Non-Vegetarian,Rural,0,1,0,0,0,1,0,0,1,1,0,1,1,Normal,Vitamin C
+32,Female,Non-Vegetarian,Urban,0,0,0,1,1,1,0,0,0,0,0,0,1,Normal,Vitamin C
+67,Female,Vegetarian,Urban,0,0,0,0,0,0,0,0,0,1,0,0,0,Rough Skin,No Deficiency
+29,Female,Non-Vegetarian,Urban,0,0,0,0,0,0,0,0,0,0,1,0,1,Normal,Vitamin C
+44,Female,Vegetarian,Rural,0,0,0,1,0,1,0,1,0,0,0,0,0,Rough Skin,Iron
+25,Male,Vegetarian,Urban,0,0,0,0,0,0,1,1,0,0,0,0,1,Pale/Yellow Skin,Iron
+25,Female,Non-Vegetarian,Rural,0,0,0,1,0,1,0,0,0,0,0,1,0,Normal,Vitamin A
+60,Male,Non-Vegetarian,Urban,0,0,0,1,1,0,0,0,0,0,0,0,0,Normal,No Deficiency
+69,Male,Vegetarian,Rural,0,0,0,0,1,1,1,0,0,0,0,0,1,Normal,Zinc
+20,Female,Non-Vegetarian,Urban,0,1,0,0,0,0,1,0,0,0,0,0,1,Normal,Iron
+64,Male,Vegetarian,Urban,0,0,0,1,0,1,0,0,0,0,0,0,1,Normal,Zinc
+18,Male,Non-Vegetarian,Rural,0,0,1,0,1,1,0,0,0,1,0,0,0,Dry Skin,No Deficiency
+64,Female,Vegetarian,Urban,0,0,0,0,0,1,0,1,0,0,0,0,1,Pale/Yellow Skin,Vitamin C
+26,Male,Vegetarian,Urban,1,0,0,0,0,0,0,0,0,1,0,0,1,Normal,No Deficiency
+14,Female,Vegetarian,Rural,0,0,0,1,0,0,0,0,0,0,1,0,1,Dry Skin,Vitamin C
+59,Female,Vegetarian,Urban,0,0,0,0,0,0,0,0,0,0,0,1,1,Rough Skin,Zinc
+30,Female,Non-Vegetarian,Urban,0,1,0,1,1,0,0,0,0,1,0,0,1,Normal,Zinc
+13,Female,Non-Vegetarian,Rural,0,0,0,1,0,0,0,0,0,1,0,0,0,Normal,Iron
+59,Male,Vegetarian,Urban,1,0,0,0,0,0,0,0,0,0,0,0,0,Normal,Vitamin A
+57,Male,Vegetarian,Rural,0,0,1,0,0,1,0,0,0,0,0,0,1,Normal,Zinc
+30,Male,Non-Vegetarian,Urban,0,0,0,0,0,0,0,0,0,0,0,0,0,Normal,Iron
+38,Female,Vegetarian,Urban,0,0,0,0,0,0,0,0,0,1,0,0,1,Pale/Yellow Skin,Vitamin C
+28,Female,Non-Vegetarian,Urban,0,1,0,1,0,0,0,0,0,0,0,0,0,Pale/Yellow Skin,Vitamin D
+56,Female,Non-Vegetarian,Urban,0,0,0,0,0,1,1,0,0,1,0,0,0,Normal,Vitamin B12
+13,Male,Vegetarian,Urban,0,1,0,0,0,0,0,0,0,0,0,0,1,Dry Skin,Zinc
+50,Female,Non-Vegetarian,Urban,0,0,1,1,1,0,0,0,0,0,1,0,0,Dry Skin,No Deficiency
+26,Female,Vegetarian,Urban,0,1,0,1,0,0,0,0,1,1,0,0,1,Normal,Zinc
+45,Male,Vegetarian,Rural,0,0,0,0,0,0,0,0,0,0,0,0,1,Normal,Vitamin C
+29,Female,Non-Vegetarian,Rural,0,1,0,1,1,0,1,0,1,0,0,0,1,Dry Skin,Iron
+26,Female,Vegetarian,Rural,1,0,0,0,0,1,0,0,0,0,0,0,0,Normal,Iron
+50,Male,Non-Vegetarian,Urban,0,1,1,0,0,0,0,0,0,0,0,0,0,Rough Skin,Vitamin A
+30,Female,Vegetarian,Urban,0,0,0,0,0,1,0,0,0,1,0,0,1,Normal,Vitamin C
+65,Male,Non-Vegetarian,Rural,0,0,0,1,0,1,0,0,0,1,0,0,1,Dry Skin,Iron
+51,Male,Vegetarian,Rural,0,0,0,1,0,1,0,0,0,1,1,0,0,Normal,Vitamin A
+41,Male,Vegetarian,Rural,0,0,0,0,1,0,0,0,0,0,0,0,1,Normal,No Deficiency
+27,Male,Non-Vegetarian,Urban,0,0,0,0,0,1,0,0,0,0,0,0,0,Dry Skin,Vitamin D
+43,Male,Vegetarian,Urban,0,0,0,1,0,1,0,1,0,0,0,0,0,Dry Skin,Iron
+31,Female,Non-Vegetarian,Rural,0,0,0,1,0,0,0,0,0,0,0,0,0,Dry Skin,Iron
+11,Female,Vegetarian,Rural,0,0,0,1,0,0,0,0,0,0,0,0,1,Normal,Iron
+66,Male,Non-Vegetarian,Rural,0,0,0,0,0,1,0,0,0,0,0,0,1,Normal,Vitamin C
+37,Male,Non-Vegetarian,Rural,0,0,0,0,0,0,0,0,0,0,0,0,0,Rough Skin,Vitamin B12
+31,Female,Non-Vegetarian,Urban,0,0,0,0,0,0,0,0,1,0,0,0,1,Normal,Iron
+16,Female,Vegetarian,Urban,0,0,0,0,0,0,0,0,0,1,0,0,1,Pale/Yellow Skin,Zinc

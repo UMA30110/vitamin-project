@@ -4,8 +4,19 @@ from flask import Flask, render_template, request, redirect, session
 from datetime import datetime
 from pymongo import MongoClient
 
+# ✅ NEW IMPORT (for session fix)
+from flask_session import Session
+
 app = Flask(__name__)
 app.secret_key = "secret123"
+
+# ✅ SESSION FIX FOR RENDER (IMPORTANT)
+app.config['SESSION_COOKIE_SECURE'] = True
+app.config['SESSION_COOKIE_SAMESITE'] = 'None'
+app.config['SESSION_COOKIE_HTTPONLY'] = True
+app.config["SESSION_TYPE"] = "filesystem"
+
+Session(app)
 
 # ---------------- DATABASE ----------------
 client = MongoClient("mongodb+srv://umarani:Umarani30@cluster0.52yjrxl.mongodb.net/vitamin_db")
@@ -59,18 +70,13 @@ def register_user():
     password = request.form['password'].strip()
     confirm = request.form['confirm_password'].strip()
 
-    # ❌ Password mismatch
     if password != confirm:
         return "<script>alert('Passwords do not match!'); window.location='/register';</script>"
 
-    # ❌ User already exists
     if users_collection.find_one({"username": username}):
         return "<script>alert('User already exists!'); window.location='/register';</script>"
 
-    # ✅ Insert user
     users_collection.insert_one({"username": username, "password": password})
-
-    # ✅ Redirect to login
     return redirect('/login')
 
 @app.route('/login_user', methods=['POST'])
@@ -100,28 +106,24 @@ def form():
         return render_template('index.html')
     return redirect('/login')
 
-# ✅ FIXED DASHBOARD ROUTE
 @app.route('/dashboard')
 def dashboard():
     if 'user' in session:
-        return render_template('dashboard.html')   # your dashboard page
+        return render_template('dashboard.html')
     return redirect('/login')
+
 @app.route('/profile')
 def profile():
     if 'user' not in session:
         return redirect('/login')
 
     user = session.get("user")
-    print("Logged user:", user)   # ✅ debug
 
     history = list(
         history_collection.find({"user": user}).sort("date", -1)
     )
 
-    print("Filtered data:", history)  # ✅ debug
-
     return render_template("profile.html", user=user, history=history)
-
 
 # ---------------- PREDICT ----------------
 
@@ -134,30 +136,23 @@ def predict():
         data = request.form.to_dict()
         df = pd.DataFrame([data])
 
-        # Fix column names
         df.columns = df.columns.str.replace(" ", "_")
-
-        # Convert Yes/No
         df = df.replace({"Yes": 1, "No": 0, "yes": 1, "no": 0})
 
-        # Convert numeric
         for col in df.columns:
             try:
                 df[col] = pd.to_numeric(df[col])
             except:
                 pass
 
-        # Encoding
         df = pd.get_dummies(df)
 
-        # Match model columns safely
         if len(columns) > 0:
             for col in columns:
                 if col not in df.columns:
                     df[col] = 0
             df = df.reindex(columns=columns, fill_value=0)
 
-        # Prediction
         if model is not None:
             try:
                 pred = model.predict(df)[0]
@@ -167,7 +162,6 @@ def predict():
         else:
             result = "Vitamin Deficiency Detected (Demo Mode)"
 
-        # Risk Calculation
         risk_score = sum([1 for v in data.values() if v == "1"])
 
         if risk_score <= 2:
@@ -180,17 +174,13 @@ def predict():
         explanation = get_explanation(result)
         foods = get_food(result)
 
-        # Save to DB
-        try:
-            history_collection.insert_one({
-                "user": session.get("user"),
-                "name": data.get("name"),
-                "age": data.get("age"),
-                "result": result,
-                "date": datetime.now()
-            })
-        except:
-            pass
+        history_collection.insert_one({
+            "user": session.get("user"),
+            "name": data.get("name"),
+            "age": data.get("age"),
+            "result": result,
+            "date": datetime.now()
+        })
 
         return render_template(
             "result.html",
@@ -204,9 +194,6 @@ def predict():
 
     except Exception as e:
         return "Error: " + str(e)
-    
-    
-
 
 # ---------------- EXTRA FUNCTIONS ----------------
 
@@ -237,55 +224,6 @@ def get_food(result):
         return ["Sunlight", "Milk"]
     else:
         return ["Balanced diet"]
-    
-
-# ---------------- DOWNLOAD REPORT ----------------
-
-from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer
-from reportlab.lib.styles import getSampleStyleSheet
-from flask import send_file
-from io import BytesIO
-
-@app.route('/download_report')
-def download_report():
-    if 'user' not in session:
-        return redirect('/login')
-
-    last = history_collection.find_one(
-        {"user": session.get("user")},
-        sort=[("date", -1)]
-    )
-
-    if not last:
-        return "No report found!"
-
-    buffer = BytesIO()
-    doc = SimpleDocTemplate(buffer)
-    styles = getSampleStyleSheet()
-
-    content = []
-
-    content.append(Paragraph("<b><font size=18 color=blue>Vitamin Health Report</font></b>", styles['Title']))
-    content.append(Spacer(1, 20))
-
-    content.append(Paragraph(f"Name: {last.get('name', 'N/A')}", styles['Normal']))
-    content.append(Paragraph(f"Age: {last.get('age', 'N/A')}", styles['Normal']))
-    content.append(Paragraph(f"Result: {last.get('result', 'N/A')}", styles['Normal']))
-    content.append(Paragraph(f"Date: {str(last.get('date'))}", styles['Normal']))
-
-    doc.build(content)
-
-    buffer.seek(0)
-
-    return send_file(
-        buffer,
-        as_attachment=True,
-        download_name="Vitamin_Report.pdf",
-        mimetype='application/pdf'
-    )
-
-
-
 
 # ---------------- RUN ----------------
 

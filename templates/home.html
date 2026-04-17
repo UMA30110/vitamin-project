@@ -547,7 +547,7 @@
         
         <!-- WELCOME SECTION (personalized) -->
         <div class="welcome-section">
-            <h1>Welcome, <span id="displayUsername">Guest</span> 👋</h1>
+             <h1>Welcome, <span>{{ user }}</span> 👋</h1>
             <p>Your AI-Powered Vitamin Deficiency Detection & Health Monitoring System</p>
         </div>
 
@@ -793,11 +793,6 @@
             }
         }
 
-        function updateUsernameDisplay() {
-            const user = getStorageUser();
-            document.getElementById('displayUsername').innerText = user;
-        }
-
         // Initialize page
         function init() {
             initMemberSince();
@@ -807,7 +802,7 @@
             if (!localStorage.getItem('isLoggedIn')) {
                 localStorage.setItem('isLoggedIn', 'true');
             }
-            updateUsernameDisplay();
+            
             updateStats();
             initWelcomeActivity();
             renderActivities();

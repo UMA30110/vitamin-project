@@ -174,6 +174,33 @@ def predict():
     else:
         risk = "High"
 
+
+# -----------------------
+    # EXTRA FEATURES
+    # -----------------------
+    explanation = get_explanation(result)
+    foods = get_food(result)
+
+    # Save history
+    history_collection.insert_one({
+        "user": session.get("user"),
+        "name": data.get("name"),
+        "age": data.get("age"),
+        "result": result,
+        "date": datetime.now()
+    })
+
+
+    return render_template(
+        "result.html",
+        result=result,
+        name=data.get("name"),
+        age=data.get("age"),
+        explanation=explanation,
+        risk=risk,
+        foods=foods
+        
+    )
 # ---------------- EXTRA FUNCTIONS ----------------
 
 def get_explanation(result):

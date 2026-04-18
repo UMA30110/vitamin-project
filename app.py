@@ -224,6 +224,43 @@ def get_food(result):
         return ["Sunlight", "Milk"]
     else:
         return ["Balanced diet"]
+    
+    
+    
+from flask import send_file
+import io
+
+@app.route('/download_report')
+def download_report():
+    username = session.get("user", "User")
+
+    report_text = f"""
+VitaPredict Health Report
+-----------------------------
+
+Name: {username}
+
+Result: Vitamin Deficiency Analysis Completed
+
+Advice:
+- Maintain balanced diet
+- Follow healthy lifestyle
+- Consult doctor if needed
+
+-----------------------------
+AI-Based System | Not Medical Diagnosis
+"""
+
+    buffer = io.BytesIO()
+    buffer.write(report_text.encode('utf-8'))
+    buffer.seek(0)
+
+    return send_file(
+        buffer,
+        as_attachment=True,
+        download_name="vitapredict_report.txt",
+        mimetype="text/plain"
+    )
 
 # ---------------- RUN ----------------
 

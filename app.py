@@ -139,7 +139,7 @@ def predict():
         data = request.form.to_dict()
         df = pd.DataFrame([data])
 
-        df.columns = df.columns.str.replace(" ", "_")
+        df.columns = df.columns.str.replace(" ", "_").str.lower()
         df = df.replace({"Yes": 1, "No": 0, "yes": 1, "no": 0})
 
         for col in df.columns:
@@ -148,35 +148,38 @@ def predict():
             except:
                 pass
 
-       
-
         if len(columns) > 0:
-            
             df = df.reindex(columns=columns, fill_value=0)
 
-        # 🔥 FIXED BLOCK (ONLY THIS PART CHANGED)
+        # ✅ MODEL PREDICTION
         if model is not None:
             try:
                 pred = model.predict(df)[0]
                 print("MODEL OUTPUT:", pred)
+
                 result = map_deficiency(pred)
-                 # 🔥 Smart override based on symptoms
-                if data.get("hair_loss") == "Yes":
-                 result = "Iron Deficiency"
-                elif data.get("bleeding_gums") == "Yes":
-                 result = "Vitamin C Deficiency"
-                elif data.get("vision_problem") == "Yes":
-                 result = "Vitamin A Deficiency"
-                elif data.get("numbness") == "Yes":
-                 result = "Vitamin B12 Deficiency"
-                elif data.get("bone_pain") == "Yes":
-                 result = "Vitamin D Deficiency"
-            except:
+
+                # ✅ fallback (only if needed)
+                if result == "General Deficiency":
+                    if data.get("Bleeding Gums") == "1":
+                        result = "Vitamin C Deficiency"
+                    elif data.get("Night Blindness") == "1":
+                        result = "Vitamin A Deficiency"
+                    elif data.get("Tingling Sensation") == "1":
+                        result = "Vitamin B12 Deficiency"
+                    elif data.get("Low Sun Exposure") == "1":
+                        result = "Vitamin D Deficiency"
+                    elif data.get("Fatigue") == "1":
+                        result = "Iron Deficiency"
+
+            except Exception as e:
+                print("ERROR:", e)
                 result = "Vitamin Deficiency Detected"
+
         else:
             result = "Vitamin Deficiency Detected (Demo Mode)"
 
-        # ---------------- RISK ----------------
+        # ✅ RISK
         risk_score = sum([1 for v in data.values() if v == "1"])
 
         if risk_score <= 2:

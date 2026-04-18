@@ -25,30 +25,27 @@ users_collection = db["users"]
 history_collection = db["history"]
 
 # ---------------- MODEL LOAD ----------------
-try:
-    model = pickle.load(open("model.pkl", "rb"))
-    columns = pickle.load(open("columns.pkl", "rb"))
-except:
-    model = None
-    columns = []
+model = pickle.load(open("model.pkl", "rb"))
+columns = pickle.load(open("columns.pkl", "rb"))
 
 # ---------------- DEFICIENCY MAP ----------------
 
 def map_deficiency(pred):
-    pred = str(pred).lower()
+    pred = str(pred)
 
-    if "vitamin a" in pred or " a" in pred:
+    if "A" in pred:
         return "Vitamin A Deficiency"
-    elif "b12" in pred:
+    elif "B12" in pred:
         return "Vitamin B12 Deficiency"
-    elif "vitamin c" in pred or " c" in pred:
+    elif "C" in pred:
         return "Vitamin C Deficiency"
-    elif "vitamin d" in pred or " d" in pred:
+    elif "D" in pred:
         return "Vitamin D Deficiency"
-    elif "iron" in pred:
+    elif "Iron" in pred:
         return "Iron Deficiency"
     else:
         return "General Deficiency"
+
 # ---------------- ROUTES ----------------
 
 @app.route('/')
@@ -128,90 +125,54 @@ def profile():
 
 # ---------------- PREDICT ----------------
 
-# ---------------- PREDICT ----------------
-
 @app.route('/predict', methods=['POST'])
 def predict():
-    if 'user' not in session:
-        return redirect('/login')
 
-    try:
-        data = request.form.to_dict()
-        df = pd.DataFrame([data])
+    data = request.form.to_dict()
 
-        df.columns = df.columns.str.replace(" ", "_").str.lower()
-        df = df.replace({"Yes": 1, "No": 0, "yes": 1, "no": 0})
+    df = pd.DataFrame([data])
 
-        for col in df.columns:
-            try:
-                df[col] = pd.to_numeric(df[col])
-            except:
-                pass
+    # Convert Yes/No
+    df = df.replace({
+        "yes": 1, "no": 0,
+        "Yes": 1, "No": 0
+    })
 
-        if len(columns) > 0:
-            df = df.reindex(columns=columns, fill_value=0)
+    # Convert numeric
+    for col in df.columns:
+        try:
+            df[col] = pd.to_numeric(df[col])
+        except:
+            pass
 
-        # ✅ MODEL PREDICTION
-        if model is not None:
-            try:
-                pred = model.predict(df)[0]
-                print("MODEL OUTPUT:", pred)
+    # Encoding
+    df = pd.get_dummies(df)
 
-                result = map_deficiency(pred)
+    # Match columns
+    for col in columns:
+        if col not in df.columns:
+            df[col] = 0
 
-                # ✅ fallback (only if needed)
-                if result == "General Deficiency":
-                    if data.get("Bleeding Gums") == "1":
-                        result = "Vitamin C Deficiency"
-                    elif data.get("Night Blindness") == "1":
-                        result = "Vitamin A Deficiency"
-                    elif data.get("Tingling Sensation") == "1":
-                        result = "Vitamin B12 Deficiency"
-                    elif data.get("Low Sun Exposure") == "1":
-                        result = "Vitamin D Deficiency"
-                    elif data.get("Fatigue") == "1":
-                        result = "Iron Deficiency"
+    df = df[columns]
 
-            except Exception as e:
-                print("ERROR:", e)
-                result = "Vitamin Deficiency Detected"
+    # Prediction
+    pred = model.predict(df)[0]
+    result = map_deficiency(pred)
 
-        else:
-            result = "Vitamin Deficiency Detected (Demo Mode)"
+    # -----------------------
+    # RISK CALCULATION
+    # -----------------------
+    risk_score = 0
+    for val in data.values():
+        if val == "1":
+            risk_score += 1
 
-        # ✅ RISK
-        risk_score = sum([1 for v in data.values() if v == "1"])
-
-        if risk_score <= 2:
-            risk = "Low"
-        elif risk_score <= 4:
-            risk = "Medium"
-        else:
-            risk = "High"
-
-        explanation = get_explanation(result)
-        foods = get_food(result)
-
-        history_collection.insert_one({
-            "user": session.get("user"),
-            "name": data.get("name"),
-            "age": data.get("age"),
-            "result": result,
-            "date": datetime.now()
-        })
-
-        return render_template(
-            "result.html",
-            result=result,
-            name=data.get("name"),
-            age=data.get("age"),
-            explanation=explanation,
-            risk=risk,
-            foods=foods
-        )
-
-    except Exception as e:
-        return "Error: " + str(e)
+    if risk_score <= 2:
+        risk = "Low"
+    elif risk_score <= 4:
+        risk = "Medium"
+    else:
+        risk = "High"
 
 # ---------------- EXTRA FUNCTIONS ----------------
 

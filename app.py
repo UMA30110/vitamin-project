@@ -226,41 +226,53 @@ def get_food(result):
         return ["Balanced diet"]
     
     
-    
-from flask import send_file
+from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer
+from reportlab.lib.styles import getSampleStyleSheet
 import io
+from flask import send_file
 
 @app.route('/download_report')
 def download_report():
     username = session.get("user", "User")
 
-    report_text = f"""
-VitaPredict Health Report
------------------------------
-
-Name: {username}
-
-Result: Vitamin Deficiency Analysis Completed
-
-Advice:
-- Maintain balanced diet
-- Follow healthy lifestyle
-- Consult doctor if needed
-
------------------------------
-AI-Based System | Not Medical Diagnosis
-"""
-
     buffer = io.BytesIO()
-    buffer.write(report_text.encode('utf-8'))
+    doc = SimpleDocTemplate(buffer)
+    styles = getSampleStyleSheet()
+
+    content = []
+
+    content.append(Paragraph("VitaPredict Health Report", styles['Title']))
+    content.append(Spacer(1, 12))
+
+    content.append(Paragraph(f"<b>Name:</b> {username}", styles['Normal']))
+    content.append(Spacer(1, 10))
+
+    content.append(Paragraph("<b>Result:</b> Vitamin Deficiency Detected", styles['Normal']))
+    content.append(Spacer(1, 10))
+
+    content.append(Paragraph("<b>Recommendations:</b>", styles['Heading2']))
+    content.append(Paragraph("• Maintain balanced diet", styles['Normal']))
+    content.append(Paragraph("• Include fruits and vegetables", styles['Normal']))
+    content.append(Paragraph("• Stay hydrated", styles['Normal']))
+    content.append(Spacer(1, 10))
+
+    content.append(Paragraph("<b>Medical Advice:</b>", styles['Heading2']))
+    content.append(Paragraph("Consult a healthcare professional if symptoms persist.", styles['Normal']))
+    content.append(Spacer(1, 10))
+
+    content.append(Paragraph("Disclaimer: AI-based prediction for educational purposes only.", styles['Italic']))
+
+    doc.build(content)
+
     buffer.seek(0)
 
     return send_file(
         buffer,
         as_attachment=True,
-        download_name="vitapredict_report.txt",
-        mimetype="text/plain"
+        download_name="vitapredict_report.pdf",
+        mimetype="application/pdf"
     )
+
 
 # ---------------- RUN ----------------
 

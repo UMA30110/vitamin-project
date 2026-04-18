@@ -157,6 +157,7 @@ def predict():
         if model is not None:
             try:
                 pred = model.predict(df)[0]
+                print("MODEL OUTPUT:", pred)   # 👈 ADD THIS LINE
                 result = map_deficiency(pred)
             except:
                 result = "Vitamin Deficiency Detected"

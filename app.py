@@ -37,13 +37,13 @@ except:
 def map_deficiency(pred):
     pred = str(pred).lower()
 
-    if "vitamin a" in pred:
+    if "vitamin a" in pred or " a" in pred:
         return "Vitamin A Deficiency"
     elif "b12" in pred:
         return "Vitamin B12 Deficiency"
-    elif "vitamin c" in pred:
+    elif "vitamin c" in pred or " c" in pred:
         return "Vitamin C Deficiency"
-    elif "vitamin d" in pred:
+    elif "vitamin d" in pred or " d" in pred:
         return "Vitamin D Deficiency"
     elif "iron" in pred:
         return "Iron Deficiency"
@@ -161,19 +161,7 @@ def predict():
             try:
                 pred = model.predict(df)[0]
                 print("MODEL OUTPUT:", pred)
-
-                pred_int = int(pred)
-
-                mapping = {
-                    0: "Vitamin A Deficiency",
-                    1: "Vitamin B12 Deficiency",
-                    2: "Vitamin C Deficiency",
-                    3: "Vitamin D Deficiency",
-                    4: "Iron Deficiency"
-                }
-
-                result = mapping.get(pred_int, "General Deficiency")
-
+                result = map_deficiency(pred)
             except:
                 result = "Vitamin Deficiency Detected"
         else:

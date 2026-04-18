@@ -148,12 +148,10 @@ def predict():
             except:
                 pass
 
-        df = pd.get_dummies(df)
+       
 
         if len(columns) > 0:
-            for col in columns:
-                if col not in df.columns:
-                    df[col] = 0
+            
             df = df.reindex(columns=columns, fill_value=0)
 
         # 🔥 FIXED BLOCK (ONLY THIS PART CHANGED)
@@ -162,6 +160,17 @@ def predict():
                 pred = model.predict(df)[0]
                 print("MODEL OUTPUT:", pred)
                 result = map_deficiency(pred)
+                 # 🔥 Smart override based on symptoms
+                if data.get("hair_loss") == "Yes":
+                 result = "Iron Deficiency"
+                elif data.get("bleeding_gums") == "Yes":
+                 result = "Vitamin C Deficiency"
+                elif data.get("vision_problem") == "Yes":
+                 result = "Vitamin A Deficiency"
+                elif data.get("numbness") == "Yes":
+                 result = "Vitamin B12 Deficiency"
+                elif data.get("bone_pain") == "Yes":
+                 result = "Vitamin D Deficiency"
             except:
                 result = "Vitamin Deficiency Detected"
         else:

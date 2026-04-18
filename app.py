@@ -128,6 +128,8 @@ def profile():
 
 # ---------------- PREDICT ----------------
 
+# ---------------- PREDICT ----------------
+
 @app.route('/predict', methods=['POST'])
 def predict():
     if 'user' not in session:
@@ -154,16 +156,30 @@ def predict():
                     df[col] = 0
             df = df.reindex(columns=columns, fill_value=0)
 
+        # 🔥 FIXED BLOCK (ONLY THIS PART CHANGED)
         if model is not None:
             try:
                 pred = model.predict(df)[0]
-                print("MODEL OUTPUT:", pred)   # 👈 ADD THIS LINE
-                result = map_deficiency(pred)
+                print("MODEL OUTPUT:", pred)
+
+                pred_int = int(pred)
+
+                mapping = {
+                    0: "Vitamin A Deficiency",
+                    1: "Vitamin B12 Deficiency",
+                    2: "Vitamin C Deficiency",
+                    3: "Vitamin D Deficiency",
+                    4: "Iron Deficiency"
+                }
+
+                result = mapping.get(pred_int, "General Deficiency")
+
             except:
                 result = "Vitamin Deficiency Detected"
         else:
             result = "Vitamin Deficiency Detected (Demo Mode)"
 
+        # ---------------- RISK ----------------
         risk_score = sum([1 for v in data.values() if v == "1"])
 
         if risk_score <= 2:

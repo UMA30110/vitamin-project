@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Forgot Password - VitaPredict</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(to right, #2f4b7c, #1f3b6f);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: white;
+        }
+
+        .container {
+            background: #f4f6fb;
+            color: black;
+            padding: 40px;
+            border-radius: 15px;
+            width: 350px;
+            text-align: center;
+            box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+        }
+
+        h2 {
+            margin-bottom: 10px;
+            color: #2f4b7c;
+        }
+
+        p {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 25px;
+        }
+
+        input {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+            font-size: 14px;
+        }
+
+        input:focus {
+            outline: none;
+            border-color: #2f4b7c;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            background: #2f4b7c;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background: #1f3b6f;
+        }
+
+        .back {
+            margin-top: 15px;
+            display: block;
+            color: #2f4b7c;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        .back:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+    <h2>🔐 Forgot Password</h2>
+    <p>Enter your username to recover your password</p>
+
+    <form action="/forgot_password" method="POST">
+        <input type="text" name="username" placeholder="Enter Username" required>
+        <button type="submit">Get Password</button>
+    </form>
+
+    <a href="/login" class="back">← Back to Login</a>
+</div>
+
+</body>
+</html>

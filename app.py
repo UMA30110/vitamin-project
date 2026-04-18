@@ -33,21 +33,22 @@ except:
     columns = []
 
 # ---------------- DEFICIENCY MAP ----------------
+
 def map_deficiency(pred):
-    pred = str(pred)
-    if "A" in pred:
+    pred = str(pred).lower()
+
+    if "vitamin a" in pred:
         return "Vitamin A Deficiency"
-    elif "B12" in pred:
+    elif "b12" in pred:
         return "Vitamin B12 Deficiency"
-    elif "C" in pred:
+    elif "vitamin c" in pred:
         return "Vitamin C Deficiency"
-    elif "D" in pred:
+    elif "vitamin d" in pred:
         return "Vitamin D Deficiency"
-    elif "Iron" in pred:
+    elif "iron" in pred:
         return "Iron Deficiency"
     else:
         return "General Deficiency"
-
 # ---------------- ROUTES ----------------
 
 @app.route('/')

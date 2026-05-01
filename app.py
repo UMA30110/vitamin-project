@@ -183,6 +183,9 @@ def predict():
                print("FINAL PRED:", pred)  # ✅ ADD THIS
 
                result = pred
+               session['last_result'] = result
+               session['last_name'] = name
+               session['last_age'] = age
               
           except:
                 result = "Vitamin Deficiency Detected"
@@ -275,9 +278,12 @@ from reportlab.lib.styles import getSampleStyleSheet
 import io
 from flask import send_file
 
+
 @app.route('/download_report')
 def download_report():
-    username = session.get("user", "User")
+    result = session.get("last_result", "No Data")
+    name = session.get("last_name", "User")
+    age = session.get("last_age", "N/A")
 
     buffer = io.BytesIO()
     doc = SimpleDocTemplate(buffer)
@@ -288,10 +294,13 @@ def download_report():
     content.append(Paragraph("VitaPredict Health Report", styles['Title']))
     content.append(Spacer(1, 12))
 
-    content.append(Paragraph(f"<b>Name:</b> {username}", styles['Normal']))
+    content.append(Paragraph(f"<b>Name:</b> {name}", styles['Normal']))
     content.append(Spacer(1, 10))
 
-    content.append(Paragraph("<b>Result:</b> Vitamin Deficiency Detected", styles['Normal']))
+    content.append(Paragraph(f"<b>Age:</b> {age}", styles['Normal']))
+    content.append(Spacer(1, 10))
+
+    content.append(Paragraph(f"<b>Result:</b> {result}", styles['Normal']))
     content.append(Spacer(1, 10))
 
     content.append(Paragraph("<b>Recommendations:</b>", styles['Heading2']))
@@ -307,7 +316,6 @@ def download_report():
     content.append(Paragraph("Disclaimer: AI-based prediction for educational purposes only.", styles['Italic']))
 
     doc.build(content)
-
     buffer.seek(0)
 
     return send_file(
@@ -316,8 +324,6 @@ def download_report():
         download_name="vitapredict_report.pdf",
         mimetype="application/pdf"
     )
-
-
 # ---------------- RUN ----------------
 
 if __name__ == "__main__":
